@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
 
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -5;
+}
+
 body { background-image: image="/workspace/fulltemp-artistpage/images/concert-gc18f36580_1920.jpg"; color: aliceblue;}
 h2{color: rgb(247, 247, 247); text-align: left; font-size: 18px; ;font-family: 'Golos Text', sans-serif;}
 p{color: rgb(247, 247, 247); text-align: justify; left; margin-top: 20px; margin-left:20px; font-size: 14px; ;font-family: 'Golos Text', sans-serif;}
