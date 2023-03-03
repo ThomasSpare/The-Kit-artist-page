@@ -17,54 +17,44 @@
       body {background-color: black;
       }
       a:hover{font-size: xx-large;}
+
+      .row {     
+    text-align: justify;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 0;
+    background-color: #000000ce;
+  }
+  
+  .column {
+    flex: 50%;
+    margin-top: 0px;
+  }
       
       div.gallery {
-  margin: 20px;
-  border: 5px solid #ccc;
+  margin: 10px;
+  border: 5px solid #050505e3;
   float: center;
-  width: 220px;
-  margin-left: 100px;
-  margin-top: 100px;
+  width: 300px;
+  margin-inline-start: 30%;
 }
 
 div.gallery:hover {
-  border: 3px solid #777;
-  transform: scale(150%);
+  border: 3px solid #00000088;
+  transform: scale(300%);
+  align-items: center;
   transition: 400ms;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
-  margin-left: -10%;
+  margin-left: -20px;
 }
 
 div.desc {
-  padding: 15px;
+  padding: 0;
   text-align: center;
-}
-
-<!-- css col2 --->
-
-div.gallery-col2 {
-  margin: 20px;
-  border: 5px solid #ccc;
-  float: center;
-  width: 220px;
-  margin-left: 300px;
-  margin-top: 100px;
-}
-
-div.gallery-col2:hover {
-  border: 3px solid #777;
-  transform: scale(150%);
-  transition: 400ms;
-}
-
-div.gallery-col2 img {
-  width: 100%;
-  height: auto;
-  margin-left: -10%;
 }
 
 div.desc2 {
@@ -85,75 +75,87 @@ div.desc2 {
   </ul>
 </nav> 
 </head>
-<body>
-    <div class="gallery">
-        <a target="_blank" href="images/engin-akyurt-VFKxeErl3O0-unsplash.jpg">
-          <img src="images/engin-akyurt-VFKxeErl3O0-unsplash.jpg" alt="Engin" width="800" height="600">
-        </a>
-        <div class="desc"></div>
-      </div>
-      
+<body>       <!--  1 Column ---->
+  <div class="row">
+    <div class="column" style="background-color:#52252569;">
       <div class="gallery">
-        <a target="_blank" href="images/andre-ouellet-Xtj_DLcIC7U-unsplash.jpg">
-          <img src="images/andre-ouellet-Xtj_DLcIC7U-unsplash.jpg" alt="Andre" width="800" height="600">
+        <a target="_blank" href="images/gallery images/kit on stage front img.jpg">
+          <img src="images/gallery images/kit on stage front img.jpg" alt="Kit on stage playing music" width="800" height="600">
         </a>
-        <div class="desc"></div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="images/redd-f-ZfCVTJ30yoc-unsplash (1).jpg">
-          <img src="images/redd-f-ZfCVTJ30yoc-unsplash (1).jpg" alt="Redd" width="800" height="600">
-        </a>
-        <div class="desc"></div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg">
-          <img src="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg" alt="Alexey" width="800" height="600">
-        </a>
-        <div class="desc"></div>
       </div>
       <div class="gallery">
-        <a target="_blank" href="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg">
-          <img src="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg" alt="Alexey" width="800" height="600">
+        <a target="_blank" href="images/gallery images/kit fans.jpg">
+          <img src="images/gallery images/kit fans.jpg" alt="Photo from stage of kit fans " width="800" height="600">
         </a>
-        <div class="desc"></div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/gallery images/kit sing on stage bw.jpg">
+          <img src="images/gallery images/kit sing on stage bw.jpg" alt="The Kit singing on stage bw BW photo" width="800" height="600">
+        </a>
+     
+      </div>
+    </div>
 
-        <!--GALLERY COL2 -->
 
-        <div class="gallery-col2">
-            <a target="_blank" href="images/engin-akyurt-VFKxeErl3O0-unsplash.jpg">
-              <img src="images/engin-akyurt-VFKxeErl3O0-unsplash.jpg" alt="Engin" width="800" height="600">
+         <!--  2 Column ---->
+        <div class="column" style="background-color:#58125a81;">
+          <div class="gallery">
+            <a target="_blank" href="images/gallery images/kit stage fire crowd.jpg">
+              <img src="images/gallery images/kit stage fire crowd.jpg" alt="The Kit on stage facing the crowd with fire and fog" width="800" height="600">
             </a>
-            <div class="desc2"></div>
+            <div class="desc"></div>
           </div>
           
-          <div class="gallery-col2">
+          <div class="gallery">
+            <a target="_blank" href="images/gallery images/man on stage.jpg">
+              <img src="images/gallery images/man on stage.jpg" alt="Man walking on stage of a kit show carrying a water tray for fans " width="800" height="600">
+            </a>
+            <div class="desc"></div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="images/gallery images/the kit on stage 2.jpeg">
+              <img src="images/gallery images/the kit on stage 2.jpeg" alt="Redd" width="800" height="600">
+            </a>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+
+         <!--  3 Column ---->
+        <div class="column" style="background-color:#171b5075;">
+          <div class="gallery">
+            <a target="_blank" href="images/gallery images/kit show lazer.jpg">
+              <img src="images/gallery images/kit show lazer.jpg" alt="The Kit lazer show" width="800" height="600">
+            </a>
+            <div class="desc"></div>
+          </div>
+          
+          <div class="gallery">
             <a target="_blank" href="images/andre-ouellet-Xtj_DLcIC7U-unsplash.jpg">
               <img src="images/andre-ouellet-Xtj_DLcIC7U-unsplash.jpg" alt="Andre" width="800" height="600">
             </a>
-            <div class="desc2"></div>
+            <div class="desc"></div>
           </div>
           
-          <div class="gallery-col2">
+          <div class="gallery">
             <a target="_blank" href="images/redd-f-ZfCVTJ30yoc-unsplash (1).jpg">
               <img src="images/redd-f-ZfCVTJ30yoc-unsplash (1).jpg" alt="Redd" width="800" height="600">
             </a>
-            <div class="desc2"></div>
+            <div class="desc"></div>
           </div>
-          
-          <div class="gallery-col2">
-            <a target="_blank" href="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg">
-              <img src="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg" alt="Alexey" width="800" height="600">
-            </a>
-            <div class="desc2"></div>
-          </div>
-          <div class="gallery-col2">
-            <a target="_blank" href="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg">
-              <img src="images/alexey-turenkov-0u-kQlSygSI-unsplash.jpg" alt="Alexey" width="800" height="600">
-            </a>
-            <div class="desc2"></div>
+        </div>
 
- 
+
+
+        
+
+
+
+
+    </div>
+  </div>
 </body>
 </html>
+
+
