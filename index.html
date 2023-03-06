@@ -17,10 +17,10 @@
       a{font-size: xx-large; margin:20px; text-decoration: none;color:rgb(240, 240, 240)} 
       a:hover{margin:20px; text-decoration: none; color: rgb(255, 16, 16);}
       body {background-color: black;
-        background-image: url("images/krewella-facing-crowd.jpg");background-repeat: no-repeat; border-radius: 20px; border-color: aliceblue;
+        background-image: url("images/krewella-facing-crowd.jpg"); max-width: none; background-repeat: no-repeat; border-radius: 20px; border-color: aliceblue;
       }
       a:hover{font-size: xx-large;}
-    img:hover{transform: scale(1%);transition-duration:300ms;}
+    img:hover{transform: scale(120%);transition-duration:300ms;}
     body {
     background-image: url("images/krewella-facing-crowd.jpg");
     background-size: 100%;
@@ -32,17 +32,14 @@ body:hover {
 h1{color: rgb(24, 24, 24); text-align: center; font-size: 24px; ;font-family: 'Golos Text', sans-serif;}
 
       
-
-
-.column {
+.column{
   float: left;
-  background-color: #000000ce;
+  background-color: #9e8d8dce;
   margin-top: 40px;
   width: 50%;
 }
 
-/* Clear floats after the columns */
-.row:after { 
+.row:after{ 
   background-color: #000000ce;
   content: "";
   display: table;
@@ -56,11 +53,19 @@ list{font-family: 'Golos Text', sans-serif; font: size 18px; margin-top: 10px; p
 
 
 
-  @media screen and (max-width: 1300px) {
-  .column {
-    width: 100%;
+  @media screen and (max-width: 1024px) {
+    .column{width: 100%;}
+    body{max-width: fit-content;}
+    .footer{max-width: display;}
+    #merchtext{font-size: medium;}
+    #nav{max-width:fit-content;}
   }
+
+  @media screen and{max-width: 425;}
+  {
+
 }
+  
 
 #img2{margin-left: 0%;
   margin-top:20px;
@@ -80,6 +85,7 @@ margin-left: 100px;}
 </nav>
 </head>
 <body>
+  <div class="row">
   <div>
 <list>
     <h2>NEXT GIG - Dublin - 25 March</h2>
@@ -96,12 +102,15 @@ margin-left: 100px;}
   <img id="img1" href="merch.html" style="margin-left: 50%; height: 150px; margin-top: 30%; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
   src="images/ICC00021-TEE-BLK_1800x1800.webp" alt="All roads lead to the dancefloor - Black T-shirt"/>
 
-  <input type="email" name="email" placeholder="Your email" style="height: 30px; width: fit-content; margin-left: 50% ; background-color: black; color: rgb(41, 253, 253);"> <label for="email" 
-  style="background-color: #000000e1; font-family:'Golos Text', sans-serif; font-size:x-large;">  Get updates & special offers!  </label>
+  <input type="email" name="email" placeholder="Your email" 
+  style="height: 30px; width: fit-content; text-align: center; background-color: black; color: rgb(41, 253, 253);">
+  <label id="merchtext" for="email" style="margin-left: 50%; margin-top: 40px; background-color: #000000e1; font-family:'Golos Text', sans-serif; font-size:x-large;">
+  Get updates & special offers!</label>
   <br>
   <br>
   <br>
   <br>
+  </div>
   <div class="row">
     <div class="column"><img id="img2" style="border-style: solid; border-width: thick; border-color: #000000de; border-radius: 20px;" 
       src="images/krewella-2016-press.jpg" alt="The kit posing facing camera"/>
@@ -146,14 +155,14 @@ margin-left: 100px;}
 <br>
 <br>
 <br>
-
- 
+  </div>
+  </div>
 </body>
 <div class="footer">
-  <a href=""><img id="icons" src="images/gallery images/icons/mixcloud icon.png"></a>
-  <a href=""><img id="icons" src="images/gallery images/icons/spotify icon.png"></a>
-  <a href=""><img id="icons" src="images/gallery images/icons/instagram icon.png"></a>
-  <a href=""><img id="icons" src="images/gallery images/icons/youtube icon.png"></a>
-  <a href=""><img id="icons" src="images/gallery images/icons/email icon.png"></a>
+  <a href="https://www.mixcloud.com/Krewellamusic/" target="_blank"><img id="icons" src="images/gallery images/icons/mixcloud icon.png"></a>
+  <a href="https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr?si=LeFxjyCoTkCvrq__J0AyDg" target="_blank"><img id="icons" src="images/gallery images/icons/spotify icon.png"></a>
+  <a href="https://www.instagram.com/krewella/?hl=en" target="_blank"><img id="icons" src="images/gallery images/icons/instagram icon.png"></a>
+  <a href="https://www.youtube.com/channel/UCDY_0WzkHyj0A1ev6RTql1Q" target="_blank"><img id="icons" src="images/gallery images/icons/youtube icon.png"></a>
+  <a href="mailto:damrec.prod@gmail.com" target="_blank"><img id="icons" src="images/gallery images/icons/email icon.png"></a>
 </div> 
 </html>
