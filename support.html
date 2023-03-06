@@ -14,11 +14,11 @@
         font-family: 'Golos Text', sans-serif;
       background-color: #0000006b;}
         a{font-size: xx-large; margin:20px; text-decoration: none;color:rgb(240, 240, 240)} 
-        a:hover{margin:20px; text-decoration: none; color: rgb(255, 16, 16);}
+        a:hover{text-decoration: none; color: rgb(255, 16, 16);}
         body {background-color: black;
           background-image: url("images/thekit-purple-lights.jpg");background-repeat: no-repeat; border-radius: 20px; border-color: aliceblue;
         }
-        a:hover{font-size: xx-large;}
+      
       img:hover{transform: scale(110%);transition-duration:1000ms;}
       body {
       background-image: url("images/thekit-purple-lights.jpg");
@@ -29,31 +29,23 @@
       background-size: 120%;
   }
   h1{color: rgb(255, 0, 0); text-align: center; font-size: 80px; ;font-family: 'Golos Text', sans-serif;}
-  p{color: rgb(255, 255, 255); margin-top: 0px; margin-left:5px; text-align:left ; font-size: 18px;font-family: 'Golos Text', sans-serif;}
-  button:hover{transform: scale(120%); text-shadow: #8dff23ea; transition-duration:400ms;color: aqua;}
-        button{font-size: large; height: 50px ; margin: 15px; border-radius: 10px; color:aliceblue; background-color: #2382ff96;}
+  p{color: rgb(255, 255, 255); margin-left: 40%; font-size: 18px;font-family: 'Golos Text', sans-serif;}
+
+  button{font-size: large; height: 50px ; margin: 15px; border-radius: 10px; color:aliceblue; background-color: #2382ff96;}
+  button:hover{transform: scale(120%); text-shadow: #ff2335; transition-duration:300ms;color: rgb(255, 255, 255);}
+  #button{height: 100px; margin-top: 10%; margin-left: 40%}
   
-    .row {
-      font-family: 'Golos Text', sans-serif; 
-      font: size 21px;
-    text-align: justify;
-    display: flex;
-    background-color: #000000ce;
-  }
   
-  .column {
-    font-family: 'Golos Text', sans-serif; 
-    font: size 21px;
-    text-align: justify;
-    flex: 50%;
-    margin-top: 40px;
-  }
+  #support{height: 120px;}
+  
+
+  
   #logo{position:absolute; margin-left: 20%; }
   list{font-family: 'Golos Text', sans-serif; font: size 21px; margin-top: 140px; position: absolute; color: azure; margin-left: 17%; }
   
   @media only screen and (max-width: 600px) 
   #img1{size: 50%;
-    }
+  }
   
   
   </style>
@@ -68,24 +60,38 @@
   </nav>
 </head>
 <body>
-    <div>
-    <button style="margin-left: 40%">MIX-CLOUD</button>
+  <div>
+    <div id="support">
+    <a style="font-family: 'Golos Text', sans-serif; font-size: 15px;" href="https://www.mixcloud.com/Krewellamusic/" target="_blank">
+      <img id="button" src="images/gallery images/icons/mixcloud icon.png">  
+      MIX-CLOUD Follow us & listen on unreleased sounds and live shows
+      </a>
+    </div>
+    <div id="support">
+      <a style="font-family: 'Golos Text', sans-serif; font-size: 15px;" href="merch.html" target="_blank">
+        <img id="button" src="images/gallery images/icons/merch icon.png">
+        MERCH Get yourself one of our cool outfits 
+      </a>
 </div>
     <div>
-    <button style="margin-left: 41%">MERCH</button>
+      <div id="support">
+      <a style="font-family: 'Golos Text', sans-serif; font-size: 15px;" href="https://www.patreon.com/posts/krewella-35909645" target="_blank"><img id="button" src="images/gallery images/icons/patreon.png"> Get yourself one of our cool T-shirts 
+      </a>
 </div>
-    <div>
-    <button style="margin-left: 41%">EXCLUSIVES</button>
+<div id="support">
+      <a style="font-family: 'Golos Text', sans-serif; font-size: 15px;" href="https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr?si=IkUK_B6SS_qkC4NBxLKqjQ" target="_blank">
+        <img id="button" src="images/gallery images/icons/spotify icon.png">
+        SPOTIFY Follow us and you will receive new releases in your Release Radar feed
+      </a>
 </div>
-    <div>
-    <button style="margin-left: 40%">PATREON BLOG</button> 
-</div>
-    <div>
-    <button style="margin-left: 38%">FOLLOW US ON SPOTIFY</button>
-</div>
-    <div>
-    <button style="margin-left: 39%">DONATE</button>    
-</div>
+    </div>
+  </div>
+</body>
+    
+
+   
+ 
+
  
 </body>
 </html>
