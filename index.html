@@ -13,16 +13,15 @@
         margin-top: -10px;
     	text-align:center;
       font-family: 'Golos Text', sans-serif;
-    background-color: #0000006b;}
-      a{font-size: xx-large; margin:20px; text-decoration: none;color:rgb(240, 240, 240)} 
-      a:hover{margin:20px; text-decoration: none; color: rgb(255, 16, 16);}
-      body {background-color: black;
-        background-image: url("images/krewella-facing-crowd.jpg"); max-width: none; background-repeat: no-repeat; border-radius: 20px; border-color: aliceblue;
+    background-color: #00bbff6e;}
+      a{font-size: xx-large; margin:20px; text-decoration: none;color: #56423D} 
+      a:hover{margin:20px; text-decoration: none; color:#ff0022;}
+      body {background-color: #56423D; max-width: none; background-repeat: no-repeat; border-radius: 20px; border-color: aliceblue;
       }
       a:hover{font-size: xx-large;}
     img:hover{transform: scale(120%);transition-duration:300ms;}
     body {
-    background-image: url("images/krewella-facing-crowd.jpg");
+    background-image: url("images/mainpage-the-kit-show.jpg");
     background-size: 100%;
     transition: 20s;
 }
@@ -34,13 +33,12 @@ h1{color: rgb(24, 24, 24); text-align: center; font-size: 24px; ;font-family: 'G
       
 .column{
   float: left;
-  background-color: #9e8d8dce;
+  background-color: #BEA6A0;
   margin-top: 40px;
   width: 50%;
 }
 
 .row:after{ 
-  background-color: #000000ce;
   content: "";
   display: table;
   clear: both;
@@ -54,17 +52,17 @@ list{font-family: 'Golos Text', sans-serif; font: size 18px; margin-top: 10px; p
 
 
   @media screen and (max-width: 1024px) {
-    .column{width: 100%;}
-    body{max-width: fit-content;}
+    .column{width: 100%; text-align:left; align-content: center;}
+    body{max-width: 200%;}
     .footer{max-width: display;}
     #merchtext{font-size: medium;}
     #nav{max-width:fit-content;}
+    #logo{margin-top: 50%;}
+    .form{height: 80px; margin-left:90%; margin-top: 40%;}
+    #iframe{margin-top: 300px; height:80px}
   }
 
-  @media screen and{max-width: 425;}
-  {
 
-}
   
 
 #img2{margin-left: 0%;
@@ -74,7 +72,7 @@ margin-left: 100px;}
 
 
 </style>
-<img id="logo" src="images/the-kit-logo.png"  style="height: 350px;">
+<img id="logo" src="images/the-kit-logo.png" alt="The Kit logo"  style="height: 350px;">
 <nav>
   <ul id="nav">
       <a href="news.html"> NEWS </a>
@@ -88,24 +86,27 @@ margin-left: 100px;}
   <div class="row">
   <div>
 <list>
-    <h2>NEXT GIG - Dublin - 25 March</h2>
+    <h2 style="color: #ff0022;">NEXT GIG - Dublin - 25 March</h2>
   </list>
   </div>
   <div>
 
-  <iframe style="border-radius:12px; margin-left: 80%; margin-top: 3%;" 
+  <iframe id="iframe" style="border-radius:12px; margin-left: 80%; margin-top: 3%;" 
   src="https://open.spotify.com/embed/track/59mrqUmhpmcfUns8BKkV30?utm_source=generator&theme=0" 
   width="20%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
   encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
 
-  <img id="img1" href="merch.html" style="margin-left: 50%; height: 150px; margin-top: 30%; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
-  src="images/ICC00021-TEE-BLK_1800x1800.webp" alt="All roads lead to the dancefloor - Black T-shirt"/>
-
-  <input type="email" name="email" placeholder="Your email" 
-  style="height: 30px; width: fit-content; text-align: center; background-color: black; color: rgb(41, 253, 253);">
-  <label id="merchtext" for="email" style="margin-left: 50%; margin-top: 40px; background-color: #000000e1; font-family:'Golos Text', sans-serif; font-size:x-large;">
-  Get updates & special offers!</label>
+<form action="thankyou.html" target="_blank" style="margin-left: 50%; margin-right:635px; height: 300px; margin-top: 30%; border-style:groove; 
+    border-color: #D60000 ; border-radius: 5px;">
+    <label for="email"><img src="images/t-shirt.webp" style="height: 300px"> <br><h1 style="background-color: #f5bdaf; ">Get updates & special offers</h1></label>
+    <input type="email" name="email" placeholder="Your email" 
+    style="height: 40px; width: fit-content; text-align: center; border-color: #ff0022; background-color: #860000; color: rgb(255, 255, 255);">
+    <input type="submit" value="Join The Kit">
+</form>
+  <br>
+  <br>
+  <br>
   <br>
   <br>
   <br>
@@ -113,10 +114,10 @@ margin-left: 100px;}
   </div>
   <div class="row">
     <div class="column"><img id="img2" style="border-style: solid; border-width: thick; border-color: #000000de; border-radius: 20px;" 
-      src="images/krewella-2016-press.jpg" alt="The kit posing facing camera"/>
+      src="images/the kit press.jpg" alt="The kit posing facing camera"/>
       <br>
       <img id="img2" style="border-style: solid; border-width: thick; border-color: #000000de; border-radius: 20px;" 
-      src="images/Krewella-Rukes.jpg" alt="The kit whisper"/></div>
+      src="images/The kit talking.jpg" alt="The kit together backstage talking"/></div>
   <div style="background-color: #000000c5;"class="column"><P> "THE KIT" a.k.a. the sisters Shawni and Yasmine Beck<br>
     is rapidly entering the Dance Music scene.<br> 
     With full passion, the they work hard to bring new<br> 
@@ -147,10 +148,6 @@ margin-left: 100px;}
     They've played Coachella, Lollapalooza, EDC, Ultra, iHeartRadio Music Festival,<br> 
     Tomorrowland, Storm (China), Sunburn (India), Coke Studios in Pakistan, and more,<br> 
     in addition to their own headlining tours and Las Vegas residencies.</p><br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
