@@ -21,7 +21,6 @@
       a:hover{font-size: xx-large;}
       h1{color: rgb(255, 0, 0); text-align: center; font-size: 80px; ;font-family:monospace, Monaco;}
       h2{color: rgb(255, 255, 255); text-align: center;font-family:monospace, Monaco;}
-      p{font-family:monospace, Monaco; color:antiquewhite;text-align: center; background-color: #ff0000a8; height: 40px;}
     #img1{margin: 50px;}
 </style>
 <img id="logo" src="images/the-kit-logo.png"  style="height: 350px;">
@@ -52,17 +51,22 @@
         <input type="checkbox" id="T-shirt" name="T-small"><label for="T-small"> Minimal techno mug - 5 $ (or more) </label><br>
 
 </div>
- <div>
-
-  <form style="color: antiquewhite; margin-left: 550px;">
-    <input type="checkbox" id="T-shirt" name="T-small"><label for="T-small">  All roads lead to the dancefloor - Black T-shirt (small)</label><br>
-    <input type="checkbox" id="T-shirt" name="T-medium"><label for="T-medium">  All roads lead to the dancefloor - Black T-shirt (medium)</label><br>
-    <input type="checkbox" id="T-shirt" name="T-large"><label for="T-large">  All roads lead to the dancefloor - Black T-shirt (large)</label><br>
-    <input type="checkbox" id="T-shirt" name="T-XL"><label for="T-XL">  All roads lead to the dancefloor - Black T-shirt (XL)</label><br>
-    <input type="checkbox" id="T-shirt" name="T-XXL"><label for="T-XXL">  All roads lead to the dancefloor - Black T-shirt (XXL)</label><br>
-    <br>
-    
+ <div>   
   </form>
+  <form action="thankyou.html" target="_blank" style="background-color: antiquewhite; align-content: center; 
+  height: 500px; margin-top: 10%; border-style:groove; 
+    border-color: #D60000 ; border-radius: 5px;">
+    
+    <p>SIZE</p>
+    <input type="radio" id="s" name="T-shirt size" value="S">
+    <label for="S">S</label><br>
+    <label for="radio" id="m" name="T-shirt size" value="M">M</label><br>
+    <label for="radio" id="l" name="T-shirt size" value="L">L</label><br>
+    <label for="radio" id="xl" name="T-shirt size" value="XL">XL</label><br>
+    <label for="radio" id="xxl" name="T-shirt size" value="XXL">XXL</label><br>
+    <label for="email">email:</label><input type="email" name="email" placeholder="Your email"> 
+    <input type="submit" value="Join The Kit">
+</form>
  </div>
  <div></div>
 </body>
