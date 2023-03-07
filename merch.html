@@ -21,7 +21,19 @@
       a:hover{font-size: xx-large;}
       h1{color: rgb(255, 0, 0); text-align: center; font-size: 80px; ;font-family:monospace, Monaco;}
       h2{color: rgb(255, 255, 255); text-align: center;font-family:monospace, Monaco;}
-    #img1{margin: 50px;}
+    
+
+
+    @media screen and (max-width: 1024px) {
+    body{max-width: display;}
+    .footer{max-width: display;}
+    #nav{max-width:max-content;}
+    #logo{margin-top: 50%;}
+   
+    
+  }
+
+
 </style>
 <img id="logo" src="images/the-kit-logo.png"  style="height: 350px;">
 <nav>
@@ -34,39 +46,40 @@
 </nav>
 </head>
 <body>
-  <div>
-    <h1>THE KIT</h1>
-    <div>
       <p>INTERNATIONAL SHIPPING  <small>-  on all orders</small></p>
   </div>
     <h2>OFFICIAL MERCHANDISE</h2> 
 </div>
 <div>
-  <img id="img1" style="margin-left:550px; height: 300px; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
+  <img id="img1" style="margin-left: 35%; height: 300px; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
       src="images/gallery images/merch/T-shirt.png" alt="All roads lead to the dancefloor - Black T-shirt"/>
+      <p style="text-align: center; border: 10px; padding: 15px; border-color: rgba(250, 235, 215, 0.247); border-style: double;">Crazy cool T-shirt with front text "All
+        roads lead to the dance floor" (sizes: small, medium, Large, XL & XXL) color: Black price: ---  20 $</p>
 
-      <img id="img1" style="margin-left:100px; height: 300px; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
+      <img id="img1" style="margin-left: 35%; height: 300px; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
       src="images/shopping.webp" alt="Minimal techno mug"/>
-      <form style="color: antiquewhite; margin-left: 550px;">
-        <input type="checkbox" id="T-shirt" name="T-small"><label for="T-small"> Minimal techno mug - 5 $ (or more) </label><br>
+
+      <p style="text-align: center; border: 10px; padding: 15px; border-color: rgba(250, 235, 215, 0.267); border-style: double;">Our favorite coffee mug is the minimal techno mug 
+        (100% plantbased melamine free biologically degradable ecofriendly lightweight material) price: ---  20 $</p>
+
+
+
+      <p style="text-align: center; margin-inline-start: 30%; margin-inline-end: 30%; margin-top: 10%; border: 10px; padding: 10px; border-color: #63448b9d; border-style: double;">Please write in the message box what merch you want (Size & how many)<br>
+      and we will get back to you a.s.a.p. with info about availibility and payment options</p>
 
 </div>
- <div>   
+ <div>
+  <form action=""> 
+    <textarea rows="5" cols="40" name="order" spellcheck="false" style="margin-left: 42%;"placeholder="Enter your product, size etc"></textarea>
+    <label for="email">email:</label><input type="email" name="order" placeholder="Your email"> 
+    <input style="width:150px; background-color: #63448B; color: azure;" type="submit" value="Send">
   </form>
-  <form action="thankyou.html" target="_blank" style="background-color: antiquewhite; align-content: center; 
-  height: 500px; margin-top: 10%; border-style:groove; 
-    border-color: #D60000 ; border-radius: 5px;">
-    
-    <p>SIZE</p>
-    <input type="radio" id="s" name="T-shirt size" value="S">
-    <label for="S">S</label><br>
-    <label for="radio" id="m" name="T-shirt size" value="M">M</label><br>
-    <label for="radio" id="l" name="T-shirt size" value="L">L</label><br>
-    <label for="radio" id="xl" name="T-shirt size" value="XL">XL</label><br>
-    <label for="radio" id="xxl" name="T-shirt size" value="XXL">XXL</label><br>
-    <label for="email">email:</label><input type="email" name="email" placeholder="Your email"> 
-    <input type="submit" value="Join The Kit">
-</form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
  </div>
  <div></div>
 </body>
