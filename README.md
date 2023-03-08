@@ -21,7 +21,8 @@ preferably live photos from shows they had.
 
 
 Preview of site (picture)
-[Wireframe of page before build](/workspace/The-Kit-artist-page/documentation/wireframes/Wireframe main page.png)
+
+![Wireframe of page before build](/documentation/wireframes/Wireframe main page.png)
 
 
 
