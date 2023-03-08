@@ -162,9 +162,12 @@ I fixed this on all pages and this improved translation to smaller devices.
 ## Testing
 
 **Responsive testing**
-Below are screenshots when performing test on an Ipad Mini
+Below are links to screenshots when performing test on an Ipad Mini
   
-![ipad](/workspace/The-Kit---artist-page/documentation/test/responsive/Ipad/slide ipad.png)
+[ipad test screenshots](/workspace/The-Kit-artist-page/documentation/test/responsive/Ipad)
+
+  
+  
 
 ## Lighthouse test
   When conducting test in google dev lighthouse I found errors on the main page
