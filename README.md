@@ -157,6 +157,7 @@ I fixed this on all pages and this improved translation to smaller devices.
 
 **Responsive testing**
 Below are screenshots when performing test on an Ipad Mini
+  
 ![ipad](/workspace/The-Kit---artist-page/documentation/test/responsive/Ipad/slide ipad.png)
 
 
