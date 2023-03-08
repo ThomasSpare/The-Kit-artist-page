@@ -38,8 +38,10 @@ once the visitor opens the page.
 [Reference website: Carl Cox](https://carlcox.com/)
 Using media query the same effect could be possible on smaller devices.
 I also liked the style of menu from Carl Cox site on mobile devices 
-so that was something I tried to incorporate in the build.
-Its an effective yet tasteful way to present photos for the user. 
+so that was something I wanted to incorporate in the build.
+Unfortunatly build a hamburger navbar was to complicated at my level.
+
+Using zoom is an effective yet tasteful way to present photos for the user. 
 As these photos are from live shows the goal is to get the users more
 interested in visiting a show.
 
@@ -55,11 +57,32 @@ The pages are:
 
 
 **The Navbar**
-This is a fully responsive navigation that appears on every page. On the intro page the logo appears bigger and stationed on the left side for a more effectful display of the background image. On the main page there is a text area up to the left displaying where the next show will be. The logo act as a return to homepage in the navabar.
+This is a fully responsive navigation that appears on every page. On the intro page the logo appears bigger and stationed on the left side for a more effectful display of the background image. On the main page there is a text area up to the left displaying where the next show will be. The logo act as a return to homepage in the navbar.
 
-**Heavy maintance**
-A site like this would be rather maintance heavy. As this site in a live setting would need to be constantly updated
-with news, fan mail, merch and photos from recent shows.
+**Spotify player**
+On the top main page is a spotify player that the user can press play and hear the bands most popular track.
+The user can also from this player follow the band on spotify. I did some research about tweaking the spotify
+widget. The widget can be tweaked in many ways using spotify developer tools to fit different purposes.
+
+**Merch**
+In the merch section the user can look at merch items designed by the band. In the form at the bottom they can 
+write a request for certain items.
+
+**Gallery**
+In the gallery are photos that the user can hover over to enlarge them or press a photo to open it 
+in a new tab.
+
+**News section**
+In the news section are two columns. The first column is a fan oriented column displaying photos and comments mostly
+from fans. The right column is where the band can post news and share what is going on like upcoming releases or
+a new design of a merch item.
+
+**Support section**
+This where links to the bands platforms are gathered. By clicking them the user opens a new tab to the bands user profile on the choosen platform.
+
+
+
+
 ---
 
 
@@ -96,45 +119,46 @@ Below are my initial wireframes for the sites main page. I wanted the main page 
 thought a transparent navigation bar would be good on this page. Although carefull not causing this to inflict difficulty navigating the site I decided to use black fonts on a light background.
 ![Main page draft](/workspace/fulltemp-pp1-artistpage/documentation/wireframes/Wireframe main page.png)
 
-The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone. 
-![The kit logo](documentation/graphic/The Kit LOGO.png)
+The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone.
+
+![The kit logo](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/The%20Kit%20LOGO.png)
 
 I wanted to use red in my pallette and found this pallette to use.
-![Collor Pallette]()
+![Collor Pallette](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/Matching%20pallette.jpg)
 
 ## Future Implementations
+
 **The Merch section**
-The Merch section could benefit from being more developed and streamlined. 
+The Merch section could benefit from being more developed and automated. 
 Due to time constraints and the fact that I never before coded a webpage before, 
 the merch section is a bit rudimentary. Of course the visitor should be able to purshase
 and pay for merch in one instant.
 
+**Heavy maintance**
+A site like this would be rather maintance heavy. As this site in a live setting would need to be constantly updated
+with news, fan mail, merch and photos from recent shows. So ways to make updating easier would be a good idea.
+
 **Communication**
 It would also be a good idea to have some sort of email form when trying to contacting
-the band instead of just open the email provider in the users tab, one could have a popup
+the band instead of just open the email provider in a new tab, one could have a popup
 form that the user can fill out on the site and upload photos directly on the page.
 
 ## Accessibility ##
 
 ## Debugging ##
 
-The pages did not work well when testing in google dev tools. The sides of the page on smaller devices
-shrank to half the width and I did not undertsand why. Finally I found the problem had to do with using translation
-zoom on the main background photo. 
+At first the pages did not work well when testing in google dev tools. The sides of the page on smaller devices
+shrank to half the width and I did not undertsand why. Finally I found the problem had to do with using the css 
+command transform: scale(%) on the main background photo. I accidently had put the header image inside the <head> element. 
+I fixed this on all pages and this improved translation to smaller devices.
+
 
 ## Testing
 
 **Responsive testing**
 Below are screenshots when performing test on an Ipad Mini
-![Collor Pallette](documentation/test/responsive/Ipad/gallery bottom right -ipad.png
-documentation/test/responsive/Ipad/gallery top- ipad.png
-documentation/test/responsive/Ipad/main bottom  ipad.jpg
-documentation/test/responsive/Ipad/main top   ipad.png
-documentation/test/responsive/Ipad/merch bottom  ipad.jpg
-documentation/test/responsive/Ipad/merch top  ipad.jpg
-documentation/test/responsive/Ipad/news bottom  ipad.jpg
-documentation/test/responsive/Ipad/news top  ipad.jpg
-documentation/test/responsive/Ipad/Support  ipad.jpg)
+![ipad](/workspace/The-Kit---artist-page/documentation/test/responsive/Ipad/slide ipad.png)
+
 
 
 
