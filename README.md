@@ -160,6 +160,8 @@ Below are screenshots when performing test on an Ipad Mini
   
 ![ipad](/workspace/The-Kit---artist-page/documentation/test/responsive/Ipad/slide ipad.png)
 
+## Lighthouse test
+
 
 
 
