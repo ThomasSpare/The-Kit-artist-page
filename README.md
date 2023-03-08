@@ -25,7 +25,8 @@ Preview of site (picture)
 ![Wireframe of page before build](/documentation/wireframes/Wireframe main page.png)
 
 
-![Preview after build]()
+![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/Device%20view%20preview.jpg)
+
 
 
 ---
@@ -166,7 +167,15 @@ Below are screenshots when performing test on an Ipad Mini
 ![ipad](/workspace/The-Kit---artist-page/documentation/test/responsive/Ipad/slide ipad.png)
 
 ## Lighthouse test
-
+  When conducting test in google dev lighthouse I found errors on the main page
+  These where
+  * Some Imgages dont have fixed width or height
+  * missing specified charset in head, or to late
+  * Some images are missing alt="" text
+  
+ After fixing these errors I could see the performance and accessibilty went up into the green
+ And after some tweaking this the score looked like this:
+  [Lighthouse tests all pages]()
 
 
 
