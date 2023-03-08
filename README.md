@@ -22,7 +22,9 @@ preferably live photos from shows they had.
 
 Preview of site (picture)
 
-![Wireframe of page before build](/documentation/wireframes/Wireframe main page.png)
+[Wireframe of page before build]([/documentation/wireframes/](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/wireframes/Wireframe%20main%20page.png))
+
+I could not display the wireframe in the readme but they can be found in the documenation folder.
 
 
 ![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/Device%20view%20preview.jpg)
