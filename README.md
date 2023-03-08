@@ -164,7 +164,7 @@ I fixed this on all pages and this improved translation to smaller devices.
 **Responsive testing**
 Below are links to screenshots when performing test on an Ipad Mini
   
-[ipad test screenshots](/workspace/The-Kit-artist-page/documentation/test/responsive/Ipad)
+[ipad test screenshots](The-Kit-artist-page/documentation/test/responsive/Ipad/)
 
   
   
