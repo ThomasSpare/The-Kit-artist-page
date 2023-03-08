@@ -8,36 +8,38 @@
   
   <style>
     #nav {
-        position:absolute;
-        margin:initial;
+        position: absolute;
+        margin: initial;
         left: 0px;
         height: 60px;
         width: 100%;
         margin-top: -10px;
-        text-align:center;
+        text-align: center;
         font-family: 'Golos Text', sans-serif;
         background-color: #00bbff6e;
         }
-
-      
           a{font-size: xx-large; 
             margin:20px; 
             text-decoration: none;
-            color: #56423D} 
+            color: #56423D;
+          } 
           
             a:hover{margin:20px; 
               text-decoration: none; 
-              color:#ff0022;}
+              color:#ff0022;
+            }
     
               body {background-color: #56423D; 
                 max-width: none; 
                 background-repeat: no-repeat; 
                 border-radius: 20px; 
                 border-color: aliceblue;
-          }
-            a:hover{font-size: xx-large;}
-            img:hover{transform: scale(120%);
-              transition-duration:300ms;}
+                 }
+            a:hover{font-size: xx-large;
+            }
+            img:hover{transform: scale (120%);
+              transition-duration: 300ms;
+            }
             body {
             background-image: url("images/mainpage-the-kit-show.jpg");
             background-size: 100%;
@@ -55,111 +57,97 @@
                     float: left;
                     background-color: #BEA6A0;
                     margin-top: 40px;
-                    width: 50%}
+                    width: 50%;
+                  }
                       .row:after{ 
                         content: "";
                         display: table;
-                        clear: both;}
-                            #logo{position:absolute;
+                        clear: both;
+                      }
+                            #logo{position: absolute;
                             font-family: 'Golos Text', sans-serif; 
-                            font: size 18px;
+                            font-size: 18px;
                             margin-top: 10px;
                             }
                             
                             #img2{height: 400px;}
-                                  @media screen and (max-width: 1024px) {
-
+                                  @media screen and (max-width: 1024px) 
+                                  {
                                     .column{width: 200%; 
                                       text-align:left; 
                                       align-content: center;}
-
                                     body{transition: none;
                                     background-size: 200%;}
-
                                     .footer{max-width: display;}
-
                                     #nav{width:max-content;
                                     font-size: x-large;}
-
                                     #logo{margin-top: 50%;}
                                     p{font-size:x-small;
-                                    text-align: justify;
-                                    
-                                  }
-                                  
-
+                                    text-align: justify;}
                                     #iframe{margin-top: 300px; 
-                                      width:150px}
-                                  }
-
-
-                                      #img2{margin-left: 0%;
+                                      width:150px;}
+                                    }
+                                    #img2{margin-left: 0%;
                                         margin-top:20px;
                                         height: 400px;
-                                      margin-left: 100px;}
-
-                                      @media screen and (max-width: 425px) { 
+                                        margin-left: 100px;
+                                      }
+                                      @media screen and (max-width: 425px){ 
                                         a{font-size: medium;}
                                         h2{font-size: small;}
                                         #nav{width: fit-content;}
-
                                       }
-
-
 </style>
 </head>
 <body>
-  <header class="header">
-    <img id="logo" src="images/the-kit-logo.png" alt="The Kit logo"  style="height: 350px;">
-    <nav>
-      <div id="nav">
-        
-          <a href="news.html"> NEWS </a>
-         
-          <a href="merch.html"> MERCH </a>
-          
-          <a href="support.html">SUPPORT </a>
-        
-          <a href="gallery.html">GALLERY </a>
-      </div>
-    </nav>
-  
-  </header>
-  <div class="row">
-  <div>
-    <br>
-    <br>
-  <h2 style="color: #6b000e;">NEXT GIG - Dublin - 25 March</h2>
+    <header class="header">
+      <nav>
+        <div id="nav">
+            <a href="news.html"> NEWS </a>
+            <a href="merch.html"> MERCH </a>
+            <a href="support.html">SUPPORT </a>
+            <a href="gallery.html">GALLERY </a>
+        </div>
+      </nav>
+    </header>
+          <a href="index.html"><img id="logo" 
+            src="images/the-kit-logo.png"  
+            style="height: 350px;"></a>
+          <div class="row">
+          <div>
+            <br>
+            <br>
+          <h2 style="color: #6b000e;">NEXT GIG - Dublin - 25 March</h2>
+          </div>
+          <div>
+                <iframe id="iframe" style="border-radius:12px; margin-left: 80%; margin-top: 3%;" 
+                src="https://open.spotify.com/embed/track/59mrqUmhpmcfUns8BKkV30?utm_source=generator&theme=0" 
+                alt="spotify player" width="20%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+                encrypted-media; fullscreen; picture-in-picture" loading="lazy"><
+                </iframe>
   </div>
-  <div>
-
-        <iframe id="iframe" style="border-radius:12px; margin-left: 80%; margin-top: 3%;" 
-        src="https://open.spotify.com/embed/track/59mrqUmhpmcfUns8BKkV30?utm_source=generator&theme=0" 
-        alt="spotify player" width="20%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
-        encrypted-media; fullscreen; picture-in-picture" loading="lazy"><
-        </iframe>
-  </div>
-
-          <form target="_blank" 
-              style="margin-left: 50%; 
-              margin-right:635px; 
-              height: 300px; 
-              margin-top: 30%;">
-              <label for="email"><img style="height: 300px" src="images/t-shirt.webp" alt="T-shirt merch item">
-              <h1 style="background-color: #f5bdaf; ">Get updates & special offers</h1></label>
-              <input type="email" name="email" placeholder="Your email" 
-              style="height: 40px; 
-              width: fit-content; 
-              text-align: center; 
-              border-color: #ff0022; 
-              background-color: #860000; 
-              color: rgb(255, 255, 255);">
-              <input action="thankyou.html"
-              style="width: 130px; 
-              background-color: #63448B;
-              color: aliceblue;" 
-              type="submit" value="Join The Kit">
-          </form>
+                      <form target="_blank" 
+                          style="margin-left: 50%; 
+                          margin-right:635px; 
+                          height: 300px; 
+                          margin-top: 30%;">
+                          <label for="email"><img style="height: 300px" 
+                          src="images/t-shirt.webp" alt="T-shirt merch item">
+                          <h1 style="background-color: #f5bdaf; ">
+                          Get updates & special offers</h1></label>
+                          <input type="email" name="email" placeholder="Your email" 
+                          style="height: 40px; 
+                          width: fit-content; 
+                          text-align: center; 
+                          border-color: #ff0022; 
+                          background-color: #860000; 
+                          color: rgb(255, 255, 255);">
+                          <input
+                          style="width: 130px; 
+                          background-color: #63448B;
+                          color: aliceblue;" 
+                          type="submit" value="Join The Kit" formaction="thankyou.html">
+                      </form>
   <br>
   <br>
   <br>
@@ -169,26 +157,26 @@
   <br>
   </div>
   <div class="row">
-      <div class="column"><img 
-            style="height:300px;
-            border-style: solid; 
-            border-width: thick;
-            margin-left: 20%; 
-            border-color: #000000de; 
-            border-radius: 20px;" 
-            src="images/the kit press.jpg" 
-            alt="The kit posing facing camera"/>
-  <br>
-              <img id="img2" 
-              style="height: 300px;
-              margin-left: 20%; 
-              border-style: solid; 
-              border-width: thick; 
-              border-color: #000000de; 
-              border-radius: 20px;" 
-              src="images/The kit talking.jpg" 
-              alt="The kit together backstage talking"/>
-            </div>
+                    <div class="column"><img id="img2"
+                    style="height:300px;
+                    border-style: solid; 
+                    border-width: thick;
+                    margin-left: 20%; 
+                    border-color: #000000de; 
+                    border-radius: 20px;" 
+                    src="images/the kit press.jpg" 
+                    alt="The kit posing facing camera"/>
+                    <br>
+                    <img id="img2" 
+                    style="height: 300px;
+                    margin-left: 20%; 
+                    border-style: solid; 
+                    border-width: thick; 
+                    border-color: #000000de; 
+                    border-radius: 20px;" 
+                    src="images/The kit talking.jpg" 
+                    alt="The kit together backstage talking"/>
+   </div>
                     <div style="background-color: #000000c5;"class="column">
                       
                     <P> "THE KIT" a.k.a. the sisters Shawni and Yasmine Beck<br>

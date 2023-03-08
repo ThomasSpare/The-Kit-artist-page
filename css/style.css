@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
+
 #icons{height: 80px;}
 .header{margin-top: 0%;}
 #logo{margin-left: 20%;}
 
-
-
-h2{color: rgb(247, 247, 247); text-align: left; font-size: 18px; ;font-family: 'Golos Text', sans-serif;}
-p{color: rgb(247, 247, 247); text-align: justify; margin-top: 20px; margin-left:20px; font-size: 14px; ;font-family: 'Golos Text', sans-serif;}
-
+h2{color: rgb(247, 247, 247); 
+  text-align: left; 
+  font-size: 18px;
+  font-family: 'Golos Text', sans-serif;
+}
+p{color: rgb(247, 247, 247); 
+  text-align: justify; 
+  margin-top: 20px; 
+  margin-left:20px; 
+  font-size: 14px;
+  font-family: 'Golos Text', sans-serif;
+}
 .footer{
-    position:static ;
+    position: static;
     left: 0;
     bottom: 0%;
     width: 100%;

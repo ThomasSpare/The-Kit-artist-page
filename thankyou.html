@@ -6,37 +6,52 @@
   <style>
     #nav {
         position:absolute;
-        margin:initial;
         left: 0px;
         height: 60px;
         width: 100%;
-        margin-top: -10px;
-    	text-align:center;
-      font-family: 'Golos Text', sans-serif;
-    background-color: #0000006b;}
-      a{font-size: xx-large; margin:20px; text-decoration: none;color:rgb(240, 240, 240)} 
-      a:hover{margin:20px; text-decoration: none; color: rgb(255, 16, 16);}
-      body {background-color: black;
-      }
-      a:hover{font-size: xx-large;}
-      h1{color: rgb(255, 0, 0); text-align: center; font-size: 80px; ;font-family:monospace, Monaco;}
-      h2{color: rgb(255, 255, 255); text-align: center;font-family:monospace, Monaco;}
-      p{font-family:monospace, Monaco; color:antiquewhite;text-align: center; background-color: #ff0000a8; height: 40px;}
-    #img1{margin: 50px;}
+        margin-top: 0px;
+    	  text-align:center;
+        font-family: 'Golos Text', sans-serif;
+        background-color: #0000006b;}
+          a{font-size: xx-large; margin:20px; text-decoration: none;color:rgb(240, 240, 240)} 
+          a:hover{margin:20px; text-decoration: none; color: rgb(255, 16, 16);}
+          body {background-color: black;
+          }
+                                          .footer{
+                                          position:absolute;
+                                          left: 0;
+                                          bottom: 0%;
+                                          width: 100%;
+                                          background-color: #413937;
+                                          color: white;
+                                          text-align: center;
+                                        }
+          a:hover{font-size: xx-large;}
+          h1{color: rgb(235, 235, 235); text-align: center; font-size: 80px; ;font-family:monospace, Monaco;}
+          h2{color: rgb(255, 255, 255); text-align: center;font-family:monospace, Monaco;}
+          p{font-family:monospace, Monaco; color:antiquewhite;text-align: center; background-color: #ff0000a8; height: 40px;}
+          #img1{margin: 50px;}
+                                      @media screen and (max-width: 425px) { 
+                                        a{font-size: medium;}
+                                        h2{font-size: small;}
+                                        #nav{width: fit-content;}
+                                      }                                    
 </style>
-<img id="logo" src="images/the-kit-logo.png"  style="height: 350px;">
-<nav>
-  <ul id="nav">
-      <a href="news.html"> NEWS </a>
-      <a href="merch.html"> MERCH </a>
-      <a href="support.html">SUPPORT </a>
-      <a href="gallery.html">GALLERY </a>
-  </ul>
-</nav>
 </head>
 <body>
-
-  <h1>Thank You ! A confirmation email will shortly be sent to you</h1>
+  <header class="header">
+    <nav>
+      <div id="nav">
+          <a href="news.html"> NEWS </a>
+          <a href="merch.html"> MERCH </a>
+          <a href="support.html">SUPPORT </a>
+          <a href="gallery.html">GALLERY </a>
+      </div>
+    </nav>
+  </header>
+  <a href="index.html"><img id="logo" src="images/the-kit-logo.png"  style="height: 350px;"></a>
+  <h2>Great Job!<br> 
+  A confirmation email will shortly be sent to you</h2>
     
 
 </body>
@@ -46,5 +61,5 @@
   <a href="https://www.instagram.com/krewella/?hl=en" target="_blank"><img id="icons" src="images/gallery images/icons/instagram icon.png"></a>
   <a href="https://www.youtube.com/channel/UCDY_0WzkHyj0A1ev6RTql1Q" target="_blank"><img id="icons" src="images/gallery images/icons/youtube icon.png"></a>
   <a href="mailto:damrec.prod@gmail.com"><img id="icons" src="images/gallery images/icons/email icon.png"></a>
-  </div> 
+  </div>  
 </html>

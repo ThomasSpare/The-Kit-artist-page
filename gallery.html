@@ -32,12 +32,10 @@
     margin-left: 0;
     background-color: #000000ce;
   }
-  
   .column {
     flex: 50%;
     margin-top: 0px;
-  }
-      
+  }  
       div.gallery {
   margin: 10px;
   border: 5px solid #050505e3;
@@ -45,68 +43,52 @@
   width: 300px;
   margin-inline-start: 30%;
 }
-
-div.gallery:hover {
+  div.gallery:hover {
   border: 3px solid #00000088;
   transform: scale(200%);
   align-items: center;
   transition: 400ms;
 }
-
 div.gallery img {
   width: 100%;
   height: auto;
   margin-left: -20px;
 }
-
 div.desc {
   padding: 0;
   text-align: center;
 }
-
 div.desc2 {
   padding: 15px;
   text-align: center;
 }
+            @media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 1024px) {
+            .column{
+              text-justify: auto;
+              margin-top: 50%;
+              width:max-content; 
+              text-align:left; 
+              align-content: center;}
 
-.column{
-  text-justify: auto;
-  margin-top: 50%;
-  width:max-content; 
-  text-align:left; 
-  align-content: center;}
+            body{transition: none;
+            background-size:cover;}
 
-body{transition: none;
-background-size:cover;}
+            a{font-size: xx-large;}
 
-a{font-size: xx-large;}
+            p{font-size:x-small;}
 
-p{font-size:x-small;}
+            .footer{width: 200%;}
 
-.footer{width: 200%;}
+            .header{width: 200%;}
 
-.header{width: 200%;}
+            #nav{width: 300vw;
+            text-align: left;}
 
-#nav{width: 300vw;
-text-align: left;}
-
-#logo{margin-top: 5%;
-  margin-left: -10%;
-size-adjust: 10px;}
-}
-@media screen and (max-width: 425px) { 
-                                        a{font-size: medium;}
-                                        h2{font-size: small;}
-                                        #nav{width: fit-content;}
-                                        #img1{margin-left: -30%;}
-                                        #logo{margin-left: 0%;}
-                                        .footer{position:static;}
-
-                                      }
-
-
+            #logo{margin-top: 5%;
+              margin-left: -10%;
+            size-adjust: 10px;}
+            }
 </style>
 </head>
 <body>

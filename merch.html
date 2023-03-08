@@ -14,13 +14,23 @@
     	text-align:center;
       font-family: 'Golos Text', sans-serif;
     background-color: #0000006b;}
-      a{font-size: xx-large; margin:20px; text-decoration: none;color:rgb(240, 240, 240)} 
-      a:hover{margin:20px; text-decoration: none; color: rgb(255, 16, 16);}
+      a{font-size: xx-large; 
+        margin:20px; 
+        text-decoration: none;
+        color:rgb(240, 240, 240)} 
+      a:hover{margin:20px; 
+        text-decoration: none; 
+        color: rgb(255, 16, 16);}
       body {background-color: black;
       }
       a:hover{font-size: xx-large;}
-      h1{color: rgb(255, 0, 0); text-align: center; font-size: 80px; ;font-family:monospace, Monaco;}
-      h2{color: rgb(255, 255, 255); text-align: center;font-family:monospace, Monaco;}
+      h1{color: rgb(255, 0, 0); 
+        text-align: center; 
+        font-size: 80px; ;
+        font-family:monospace, Monaco;}
+      h2{color: rgb(255, 255, 255); 
+        text-align: center;
+        font-family:monospace, Monaco;}
       p{text-align: center;}
       #img1{margin-left: 50%;}
     
@@ -30,11 +40,9 @@
     body{max-width: display;}
     .footer{max-width: display;}
     #nav{max-width:max-content;}
-    #logo{margin-top: 50%;}
-   
-    
+    #logo{margin-top: 50%;} 
   }
-  @media screen and (max-width: 425px) { 
+                        @media screen and (max-width: 425px) { 
                                         a{font-size: medium;}
                                         h2{font-size: small;}
                                         #nav{width: fit-content;}
@@ -53,35 +61,63 @@
       <a href="gallery.html">GALLERY </a>
   </ul>
 </nav>
-<a href="index.html"><img id="logo" src="images/the-kit-logo.png"  style="height: 350px;"></a>
 </header>
-      <p><c>INTERNATIONAL SHIPPING  <small>-  on all orders</small></c></p>
-  </div>
-    <h2>OFFICIAL MERCHANDISE</h2> 
+<a href="index.html"><img id="logo" src="images/the-kit-logo.png"  style="height: 350px;"></a>
+      <p>INTERNATIONAL SHIPPING  <small>-  on all orders</small></p>
+</div>
+          <h2>OFFICIAL MERCHANDISE</h2> 
 </div>
 <div>
-  <img id="img1" style="height: 300px; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
-      src="images/gallery images/merch/T-shirt.png" alt="All roads lead to the dancefloor - Black T-shirt"/>
-      <p style="text-align: center; border: 10px; padding: 15px; border-color: rgba(250, 235, 215, 0.247); border-style: double;">Crazy cool T-shirt with front text "All
-        roads lead to the dance floor" (sizes: small, medium, Large, XL & XXL) color: Black price: ---  20 $</p>
+          <img id="img1" style="height: 300px; 
+                        border-style: solid;
+                        border-width: thick; 
+                        border-color: #000000a8; 
+                        border-radius: 20px;" 
+            src="images/gallery images/merch/T-shirt.png" alt="All roads lead to the dancefloor - Black T-shirt"/>
+                <p style="text-align: center; border: 10px; padding: 15px; border-color: rgba(250, 235, 215, 0.247); border-style: double;">
+                  Crazy cool T-shirt with front text "All
+                  roads lead to the dance floor" (sizes: small, medium, Large, XL & XXL) color: Black price: ---  20 $</p>
 
-      <img id="img1" style="margin-left: 35%; height: 300px; border-style: solid;border-width: thick; border-color: #000000a8; border-radius: 20px;" 
+      <img id="img1" style="margin-left: 35%; 
+      height: 300px; 
+      border-style: solid;
+      border-width: thick; 
+      border-color: #000000a8; 
+      border-radius: 20px;" 
       src="images/shopping.webp" alt="Minimal techno mug"/>
 
-      <p style="text-align: center; border: 10px; padding: 15px; border-color: rgba(250, 235, 215, 0.267); border-style: double;">Our favorite coffee mug is the minimal techno mug 
+      <p style="text-align: center; 
+      border: 10px; 
+      padding: 15px; 
+      border-color: rgba(250, 235, 215, 0.267); 
+      border-style: double;"
+      >Our favorite coffee mug is the minimal techno mug 
         (100% plantbased melamine free biologically degradable ecofriendly lightweight material) price: ---  20 $</p>
 
 
 
-      <p style="text-align: center; margin-inline-start: 30%; margin-inline-end: 30%; margin-top: 10%; border: 10px; padding: 10px; border-color: #63448b9d; border-style: double;">Please write in the message box what merch you want (Size & how many)<br>
+      <p style="text-align: center; 
+      margin-inline-start: 30%; 
+      margin-inline-end: 30%; 
+      margin-top: 10%; border: 10px; 
+      padding: 10px; 
+      border-color: #63448b9d; 
+      border-style: double;">
+      Please write in the message box what merch you want (Size & how many)<br>
       and we will get back to you a.s.a.p. with info about availibility and payment options</p>
 
 </div>
  <div>
-  <form action=""> 
-    <textarea rows="5" cols="40" name="order" spellcheck="false" style="margin-left: 42%;"placeholder="Enter your product, size etc"></textarea>
-    <label for="email">email:</label><input type="email" name="order" placeholder="Your email"> 
-    <input style="width:150px; background-color: #63448B; color: azure;" type="submit" value="Send">
+  <form action="thankyou.html"> <textarea rows="5" cols="40" name="order" spellcheck="false" 
+    style="margin-left: 42%;"
+    placeholder="Enter your product, size etc">
+     </textarea>
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email" required placeholder="Your email"> 
+    <input style="width:150px; 
+    background-color: #63448B; 
+    color: azure;" 
+    type="submit" value="Send">
   </form>
     <br>
     <br>
