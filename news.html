@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>The Kit - News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -44,19 +45,36 @@
   .column {
     flex: 50%;
     margin-top: 0px;
-    text-;
+    
   }
   #logo{position:absolute; margin-left: 20%; }
   list{font-family: 'Golos Text', sans-serif; font: size 21px; margin-top: 140px; position: absolute; color: azure; margin-left: 17%; }
-  
-  @media only screen and (max-width: 1300px)
-  
-  p{
-    {margin-left: 5%;
-    margin-right: 10%;
-    font-size:xx-small;
-    width:100%;}
-  }
+
+@media screen and (max-width: 1024px) {
+
+.column{
+  text-justify: auto;
+  margin-top: -50%;
+  width:max-content; 
+  text-align:left; 
+  align-content: center;}
+
+body{transition: none;
+background-size:contain;}
+
+a{font-size: medium;}
+
+p{font-size:x-small;}
+
+.footer{max-width: display;}
+
+.header{max-width: display;}
+
+#logo{margin-top: 5%;
+  margin-left: -10%;
+size-adjust: 10px;}
+}
+
   
 
 
@@ -64,17 +82,20 @@
   
   
   </style>
+  </head>
+<body>
+  <header class="header">
   <a href="index.html"><img id="logo" src="images/the-kit-logo.png"  style="height: 350px;z-index: 999;"></a>
-  <nav>
-    <ul id="nav">
+  <nav id="nav">
+    <ul>
         <a href="news.html"> NEWS </a>
         <a href="merch.html"> MERCH </a>
         <a href="support.html">SUPPORT </a>
         <a href="gallery.html">GALLERY </a>
     </ul>
   </nav>
-  </head>
-<body>
+  </header>
+  </body>
   <div class="row">
         <div class="column" style="background-color:#ffb7954f;">
             <h2>FAN PHOTO FROM PORTUGAL THIS WEEK</h2>
@@ -160,11 +181,11 @@
     
 </div> 
 </body>
-<div class="footer">
+<footer class="footer">
   <a href="https://www.mixcloud.com/Krewellamusic/" target="_blank"><img id="icons" src="images/gallery images/icons/mixcloud icon.png"></a>
   <a href="https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr?si=LeFxjyCoTkCvrq__J0AyDg" target="_blank"><img id="icons" src="images/gallery images/icons/spotify icon.png"></a>
   <a href="https://www.instagram.com/krewella/?hl=en" target="_blank"><img id="icons" src="images/gallery images/icons/instagram icon.png"></a>
   <a href="https://www.youtube.com/channel/UCDY_0WzkHyj0A1ev6RTql1Q" target="_blank"><img id="icons" src="images/gallery images/icons/youtube icon.png"></a>
   <a href="mailto:damrec.prod@gmail.com"><img id="icons" src="images/gallery images/icons/email icon.png"></a>
-</div> 
+</footer> 
 </html>
