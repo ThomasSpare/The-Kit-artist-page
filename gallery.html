@@ -28,7 +28,7 @@
       .row {     
     text-align: justify;
     display: flex;
-    margin-top: 80px;
+    margin-top: -100px;
     margin-left: 0;
     background-color: #000000ce;
   }
@@ -69,20 +69,59 @@ div.desc2 {
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+
+.column{
+  text-justify: auto;
+  margin-top: 50%;
+  width:max-content; 
+  text-align:left; 
+  align-content: center;}
+
+body{transition: none;
+background-size:cover;}
+
+a{font-size: xx-large;}
+
+p{font-size:x-small;}
+
+.footer{width: 200%;}
+
+.header{width: 200%;}
+
+#nav{width: 300vw;
+text-align: left;}
+
+#logo{margin-top: 5%;
+  margin-left: -10%;
+size-adjust: 10px;}
+}
+@media screen and (max-width: 425px) { 
+                                        a{font-size: medium;}
+                                        h2{font-size: small;}
+                                        #nav{width: fit-content;}
+                                        #img1{margin-left: -30%;}
+                                        #logo{margin-left: 0%;}
+                                        .footer{position:static;}
+
+                                      }
 
 
 </style>
-<a href="index.html"><img id="logo" src="images/the-kit-logo.png"  style="height: 350px;"></a>
-  <nav>
-    <ul id="nav">
+</head>
+<body>
+  <header class="header">
+  <nav id="nav">
+    <ul>
         <a href="news.html"> NEWS </a>
         <a href="merch.html"> MERCH </a>
         <a href="support.html">SUPPORT </a>
         <a href="gallery.html">GALLERY </a>
     </ul>
   </nav>
-</head>
-<body>       <!--  1 Column ---->
+  </header> 
+  <a href="index.html"><img id="logo" src="images/the-kit-logo.png"  style="height: 350px;"></a>     
+   <!--  1 Column ---->
   <div class="row">
     <div class="column" style="background-color:#52252569;">
       <div class="gallery">
@@ -140,14 +179,14 @@ div.desc2 {
           
           <div class="gallery">
             <a target="_blank" href="images/andre-ouellet-Xtj_DLcIC7U-unsplash.jpg">
-              <img src="images/andre-ouellet-Xtj_DLcIC7U-unsplash.jpg" alt="Andre" width="800" height="600">
+              <img src="images/gallery images/kit eating chinese food.webp" alt="The kit eating china food" width="800" height="600">
             </a>
             <div class="desc"></div>
           </div>
           
           <div class="gallery">
             <a target="_blank" href="images/redd-f-ZfCVTJ30yoc-unsplash (1).jpg">
-              <img src="images/redd-f-ZfCVTJ30yoc-unsplash (1).jpg" alt="Redd" width="800" height="600">
+              <img src="images/potugal-live-fanphoto.jpg" alt="The Kit live in portugal" width="800" height="600">
             </a>
             <div class="desc"></div>
           </div>

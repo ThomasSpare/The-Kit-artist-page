@@ -77,7 +77,8 @@
 
                                     .footer{max-width: display;}
 
-                                    #nav{width:max-content;}
+                                    #nav{width:max-content;
+                                    font-size: x-large;}
 
                                     #logo{margin-top: 50%;}
                                     p{font-size:x-small;
@@ -96,11 +97,18 @@
                                         height: 400px;
                                       margin-left: 100px;}
 
+                                      @media screen and (max-width: 425px) { 
+                                        a{font-size: medium;}
+                                        h2{font-size: small;}
+                                        #nav{width: fit-content;}
+
+                                      }
+
 
 </style>
 </head>
 <body>
-  <header>
+  <header class="header">
     <img id="logo" src="images/the-kit-logo.png" alt="The Kit logo"  style="height: 350px;">
     <nav>
       <ul id="nav">
@@ -114,9 +122,9 @@
   </header>
   <div class="row">
   <div>
-<list>
-    <h2 style="color: #ff0022;">NEXT GIG - Dublin - 25 March</h2>
-  </list>
+    <br>
+    <br>
+  <h2 style="color: #6b000e;">NEXT GIG - Dublin - 25 March</h2>
   </div>
   <div>
 
