@@ -25,6 +25,8 @@ Preview of site (picture)
 ![Wireframe of page before build](/documentation/wireframes/Wireframe main page.png)
 
 
+![Preview after build]()
+
 
 ---
 
