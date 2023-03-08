@@ -175,7 +175,20 @@ Below are screenshots when performing test on an Ipad Mini
   
  After fixing these errors I could see the performance and accessibilty went up into the green
  And after some tweaking this the score looked like this:
-  [Lighthouse tests all pages]()
+  [Lighthouse tests all pages](The-Kit-artist-page/documentation/test/responsive/lighthouse/)
+  
+  I only tested for desktop devices
+  
+  ** Manual Testing
+  
+  I also manually performed test on my own iphone 12 by looking on the deployed
+  site. I found some issues with the support section that could be improved visually.
+  Other then that I could navigate the site, fill in the forms on the main page
+  and in the merch section and saw a submit form message
+  when I correctly submited my email.
+  
+  
+  
 
 
 
