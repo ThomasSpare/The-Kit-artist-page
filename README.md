@@ -19,9 +19,7 @@ preferably live photos from shows they had.
 
 ---
 
-
-Preview of site (picture)
-
+## Wireframes
 [Wireframe of page before build]([/documentation/wireframes/](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/wireframes/Wireframe%20main%20page.png))
 
 I could not display the wireframe in the readme but they can be found in the documenation folder.
@@ -94,15 +92,15 @@ This where links to the bands platforms are gathered. By clicking them the user 
 ---
 
 
-## User stories
+# User stories
 
-**Client goals**
+## Client goals
 * To be able to share news and important information (like next gig, new releases, special events, new products)
 * A place to inspire the audience and encourage them to visit a live show
 * To nurture the connection with fans
 * A way for fans to discover and follow the band on digtal platforms where the band is active
 
-**User goals**
+## User goals
 
 **First time visitor**
 * I want to find out more about the Kit and see live photos
@@ -123,9 +121,8 @@ This where links to the bands platforms are gathered. By clicking them the user 
 ---
 ## Design
 
-Below are my initial wireframes for the sites main page. I wanted the main page to have a large area for photos, so I
+I wanted the main page to have a large area for photos, so I
 thought a transparent navigation bar would be good on this page. Although carefull not causing this to inflict difficulty navigating the site I decided to use black fonts on a light background.
-![Main page draft](/workspace/fulltemp-pp1-artistpage/documentation/wireframes/Wireframe main page.png)
 
 The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone.
 
@@ -152,6 +149,23 @@ the band instead of just open the email provider in a new tab, one could have a 
 form that the user can fill out on the site and upload photos directly on the page.
 
 ## Accessibility ##
+
+I have used alt text on images and the fonts I picked on google fonts was
+choosen with the purpose of making reading more easy. Perhaps larger fonts
+could be used on the main page in the column and the news section where it is
+quite small.
+
+## Technologies used ##
+
+**Languages Used**
+HTML, CSS
+
+**Frameworks, Libraries & Programs Used**
+Balsamiq Wireframes, Microsoft Paint, Adobe illustrator, Github, Gitpod, Photo Leap (mobile application)
+
+## Deployment ##
+I used github to deploy my site
+
 
 ## Debugging ##
 
@@ -197,7 +211,7 @@ And test on Iphone 12 pro
   and in the merch section and saw a submit form message
   when I correctly submited my email.
   
-  **inter explorer**
+  **Inter explorer**
   I tested the deployed site in Microsoft Edge browser
   Version 110.0.1587.63 (Official version) (64 bit)
   Every function performed as on google chrome browser
