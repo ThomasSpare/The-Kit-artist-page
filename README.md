@@ -243,7 +243,7 @@ And test on Iphone 12 pro
   
   
   
-  ##Credits:
+  ## Credits:
   
   Thanks to Kera Cudrow for excellent walkthrough of the readme section.
   
