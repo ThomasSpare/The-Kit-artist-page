@@ -162,6 +162,8 @@ I fixed this on all pages and this improved translation to smaller devices.
 
 
 ## Testing
+  
+  **All tests can be found in the documentation folder in my repository**
 
 **Responsive testing**
 Below are links to screenshots when performing test on an Ipad Mini
