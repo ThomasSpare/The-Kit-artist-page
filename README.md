@@ -183,19 +183,26 @@ And test on Iphone 12 pro
   * missing specified charset in head, or to late
   * Some images are missing alt="" text
   
- After fixing these errors I could see the performance and accessibilty went up into the green
- And after some tweaking this the score looked like this:
-  [Lighthouse tests all pages](The-Kit-artist-page/documentation/test/responsive/lighthouse/)
+ After fixing these errors I could see the performance and accessibilty went up in the green.
+ And after some tweaking the score looked like this:
+ [Lighthouse tests all pages](The-Kit-artist-page/documentation/test/responsive/lighthouse/)
   
   I only tested for desktop devices
   
-  ** Manual Testing
+  **Manual Testing**
   
   I also manually performed test on my own iphone 12 by looking on the deployed
   site. I found some issues with the support section that could be improved visually.
   Other then that I could navigate the site, fill in the forms on the main page
   and in the merch section and saw a submit form message
   when I correctly submited my email.
+  
+  **inter explorer**
+  I tested the deployed site in Microsoft Edge browser
+  Version 110.0.1587.63 (Official version) (64 bit)
+  Every function performed as on google chrome browser
+  Version 110.0.5481.178 (Official version) (64 bit)
+  
   
   
   
