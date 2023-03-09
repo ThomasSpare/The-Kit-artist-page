@@ -76,7 +76,8 @@ write a request for certain items.
 
 **Gallery**
 In the gallery are photos that the user can hover over to enlarge them or press a photo to open it 
-in a new tab.
+in a new tab. This section can be filled with more photos later on.
+![Gallery section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/screenshots/screenshot%20gallery%20section.png)
 
 **News section**
 In the news section are two columns. The first column is a fan oriented column displaying photos and comments mostly
