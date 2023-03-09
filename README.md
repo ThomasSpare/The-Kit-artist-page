@@ -75,14 +75,15 @@ In the merch section the user can look at merch items designed by the band. In t
 write a request for certain items.
 
 **Gallery**
-In the gallery are photos that the user can hover over to enlarge them or press a photo to open it 
+In the gallery below are photos that the user can hover over to enlarge them or press a photo to open it 
 in a new tab. This section can be filled with more photos later on.
 ![Gallery section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/screenshots/screenshot%20gallery%20section.png)
 
 **News section**
-In the news section are two columns. The first column is a fan oriented column displaying photos and comments mostly
+In the news section below are two columns. The first column is a fan oriented column displaying photos and comments mostly
 from fans. The right column is where the band can post news and share what is going on like upcoming releases or
 a new design of a merch item.
+![News section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/screenshots/screenshot%20news%20section.png)
 
 **Support section**
 This where links to the bands platforms are gathered. By clicking them the user opens a new tab to the bands user profile on the choosen platform.
