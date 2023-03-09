@@ -133,6 +133,9 @@ The navbar from the outset was supposed to have non-transparent bakground and I 
 I wanted to use red in my pallette and found this pallette to use.
 ![Collor Pallette](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/Matching%20pallette.jpg)
 
+
+---
+
 ## Future Implementations
 
 **The Merch section**
@@ -149,6 +152,9 @@ with news, fan mail, merch and photos from recent shows. So ways to make updatin
 It would also be a good idea to have some sort of email form when trying to contacting
 the band instead of just open the email provider in a new tab, one could have a popup
 form that the user can fill out on the site and upload photos directly on the page.
+
+
+---
 
 ## Accessibility ##
 
@@ -168,6 +174,8 @@ Balsamiq Wireframes, Microsoft Paint, Adobe illustrator, Github, Gitpod, Photo L
 ## Deployment ##
 I used github to deploy my site
 
+---
+
 
 ## Debugging ##
 
@@ -177,9 +185,11 @@ command transform: scale(%) on the main background photo. I accidently had put t
 I fixed this on all pages and this improved translation to smaller devices.
 
 
+
 ## Testing
   
   **All tests can be found in the documentation folder in my repository**
+  [Documentation](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation)
 
 **Responsive testing**
 Below are links to screenshots when performing test on an Ipad Mini
@@ -207,6 +217,16 @@ And test on Iphone 12 pro
   I only tested for desktop devices. I went on after this and improved more on the code for improved accessibilty
   but have not documented it yet.
   
+  --
+  
+  ## W3C Validator
+  
+  I tested the sites pages in W3C checker, using my url for the live pages. The test with W3C revealed several erros
+  in code. Many of the issues had to do with Duplicate of code or wrong input of code. So a more thorough debugging
+  of the code with w3C as a reference would need to be carried out. 
+  
+  --
+  
   **Manual Testing**
   
   I also manually performed test on my own iphone 12 by looking on the deployed
@@ -221,6 +241,13 @@ And test on Iphone 12 pro
   Every function performed as on google chrome browser
   Version 110.0.5481.178 (Official version) (64 bit)
   
+  
+  --
+  **Credits:**
+  
+  Thanks to Kera Cudrow for excellent walkthrough of the readme section.
+  
+  Thanks to my mentor Brian O'hare for insights and invaluable pointers 
   
   
   
