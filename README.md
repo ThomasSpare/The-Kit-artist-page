@@ -242,7 +242,7 @@ And test on Iphone 12 pro
   Version 110.0.5481.178 (Official version) (64 bit)
   
   
-  --
+  
   ##Credits:
   
   Thanks to Kera Cudrow for excellent walkthrough of the readme section.
