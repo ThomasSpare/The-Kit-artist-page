@@ -19,13 +19,13 @@ preferably live photos from shows they had.
 
 ---
 
-## Wireframes
-[Wireframe of page before build]([/documentation/wireframes/](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/wireframes/Wireframe%20main%20page.png))
-
-I could not display the wireframe in the readme but they can be found in the documenation folder.
-
-
 ![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/Device%20view%20preview.jpg)
+
+----
+
+## Wireframes
+![Wireframe of page before build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/wireframes/Wireframe%20main%20page.png)
+
 
 
 
@@ -184,26 +184,28 @@ I fixed this on all pages and this improved translation to smaller devices.
 **Responsive testing**
 Below are links to screenshots when performing test on an Ipad Mini
   
-[ipad test screenshots](The-Kit-artist-page/documentation/test/responsive/Ipad/)
+[ipad test screenshots](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/Ipad)
   
 And test on Iphone 12 pro
-[Iphone 12 Pro test](The-Kit-artist-page/documentation/test/responsive/)
+[Iphone 12 Pro test](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/Iphone%2012%20pro)
 
   
   
 
 ## Lighthouse test
   When conducting test in google dev lighthouse I found errors on the main page
-  These where
+  these where:
   * Some Imgages dont have fixed width or height
   * missing specified charset in head, or to late
   * Some images are missing alt="" text
   
  After fixing these errors I could see the performance and accessibilty went up in the green.
  And after some tweaking the score looked like this:
- [Lighthouse tests all pages](The-Kit-artist-page/documentation/test/responsive/lighthouse/)
+  ![Lighthouse for mainpage](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/test/responsive/lighthouse/Lighthouse%20test%20main%20page.jpg)
+ [Lighthouse tests all pages](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/lighthouse)
   
-  I only tested for desktop devices
+  I only tested for desktop devices. I went on after this and improved more on the code for improved accessibilty
+  but have not documented it yet.
   
   **Manual Testing**
   
