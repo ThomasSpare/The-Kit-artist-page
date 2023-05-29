@@ -1,14 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
 
-#icons{height: 80px;}
-.header{margin-top: 0%;}
-#logo{margin-left: 20%;}
+
+/* General */
+
+body {background-color: #56423D; 
+  max-width: none; 
+  background-repeat: no-repeat; 
+  border-radius: 20px; 
+  border-color: aliceblue;
+}
+
+.column{
+  float: left;
+  background-color: #BEA6A0;
+  margin-top: 40px;
+  width: 50%;
+}
+
+body > div:nth-child(4){
+  margin:auto;
+}
+
+.row:after{ 
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Fonts */
+
+h1{
+  color: rgb(24, 24, 24); 
+  text-align: center; 
+  font-size: 24px; ;
+  font-family: 'Golos Text', sans-serif;
+}
 
 h2{color: rgb(247, 247, 247); 
   text-align: left; 
   font-size: 18px;
   font-family: 'Golos Text', sans-serif;
 }
+
 p{color: rgb(247, 247, 247); 
   text-align: justify; 
   margin-top: 20px; 
@@ -16,7 +50,36 @@ p{color: rgb(247, 247, 247);
   font-size: 14px;
   font-family: 'Golos Text', sans-serif;
 }
+
+
+/* Anchors / Links */
+
+a:hover{
+  font-size: xx-large;
+}
+
+a{
+  font-size: xx-large; 
+  margin:20px; 
+  text-decoration: none;
+  color: #56423D;
+} 
+    
+a:hover{margin:20px; 
+text-decoration: none; 
+color:#ff0022;
+}
+
+
+/* Footer Navigation */
+
+.header{
+  margin-top: 0%;
+  margin:auto;
+}
+
 .footer{
+  margin:auto;
     position: static;
     left: 0;
     bottom: 0%;
@@ -24,4 +87,95 @@ p{color: rgb(247, 247, 247);
     background-color: #413937;
     color: white;
     text-align: center;
+}
+
+#nav {
+    position: absolute;
+    margin: initial;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    background-color: #00bbff6e;
+}
+
+/* Images | LOGO */
+
+img:hover{
+  transform: scale (120%);
+  transition-duration: 300ms;
+}
+                        
+#logo{
+  position: absolute;
+  font-family: 'Golos Text', sans-serif; 
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#icons{height: 80px;}
+
+#logo{margin-left: 20%;}
+                                               
+#img2{ height: 400px;}
+ 
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 425px){
+
+.column{
+  width: 200%; 
+  text-align:left; 
+  align-content: center;
+}
+    
+body{
+  transition: none;
+  background-size: 200%;
+}
+    
+.footer{
+  max-width: display;
+  margin:auto;
+}
+    
+#nav{
+  width:max-content;
+  font-size: x-large;
+}
+    
+#logo{
+  margin-top: 50%;
+}
+    
+p{
+  font-size:x-small;
+  text-align: justify;
+}
+    
+#iframe{
+  margin-top: 300px; 
+  width:150px;
+}
+    
+#img2{
+  margin-left: 0%;
+  margin-top:20px;
+  height: 400px;
+  margin-left: 100px;
+}
+      
+@media screen and (max-width: 425px){ 
+  .nav{
+    margin:auto
   }
+  a{font-size: medium;}
+  h2{font-size: small;}
+  #nav{width: fit-content;}
+}
+}
