@@ -3,18 +3,31 @@
 
 /* General */
 
-body {background-color: #56423D; 
+body {background-color: #56423D;
+  position: fixed;
   max-width: none; 
   background-repeat: no-repeat; 
-  border-radius: 20px; 
-  border-color: aliceblue;
 }
 
+
+/* Flex boxes */
+
+.box {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box>* {
+  flex: 1 1 400px;
+}
+
+/*------------------*/
+
 .column{
-  float: left;
   background-color: #BEA6A0;
-  margin-top: 40px;
-  width: 50%;
+  
 }
 
 body > div:nth-child(4){
@@ -32,6 +45,8 @@ body > div:nth-child(4){
 
 h1{
   color: rgb(24, 24, 24); 
+  font-family: 'Croissant One', cursive;
+  font-weight: 400;
   text-align: center; 
   font-size: 24px; ;
   font-family: 'Golos Text', sans-serif;
@@ -47,19 +62,22 @@ p{color: rgb(247, 247, 247);
   text-align: justify; 
   margin-top: 20px; 
   margin-left:20px; 
-  font-size: 14px;
-  font-family: 'Golos Text', sans-serif;
+  font-size: 15px;
+  font-family: 'Suwannaphum', serif;
+  font-weight: 700;
 }
 
 
 /* Anchors / Links */
 
 a:hover{
-  font-size: xx-large;
+  font-size: large;
 }
 
 a{
-  font-size: xx-large; 
+  font-family: 'Croissant One', cursive;
+  font-weight: 400;
+  font-size: large; 
   margin:20px; 
   text-decoration: none;
   color: #56423D;
@@ -67,7 +85,7 @@ a{
     
 a:hover{margin:20px; 
 text-decoration: none; 
-color:#ff0022;
+color:#2e738f;
 }
 
 
@@ -79,8 +97,8 @@ color:#ff0022;
 }
 
 .footer{
-  margin:auto;
-    position: static;
+    margin:auto;
+    position: fixed;
     left: 0;
     bottom: 0%;
     width: 100%;
@@ -90,10 +108,10 @@ color:#ff0022;
 }
 
 #nav {
-    position: absolute;
+    position: fixed;
     margin: initial;
     left: 0px;
-    height: 60px;
+    height: 30px;
     width: 100%;
     margin-top: -10px;
     text-align: center;
@@ -115,7 +133,15 @@ img:hover{
   margin-top: 10px;
 }
 
-#icons{height: 80px;}
+#icons{height: 80px;
+}
+
+#icons:hover{
+  transform: scale (120%);
+  transition-duration: 300ms;
+}
+
+
 
 #logo{margin-left: 20%;}
                                                
@@ -125,6 +151,15 @@ img:hover{
 
 
 /* Responsiveness */
+
+@media screen and (max-width: 1024px){
+  body{ 
+    max-width: 100vmin; 
+    transition: none;
+    background-repeat: no-repeat;
+}
+}
+
 
 @media screen and (max-width: 425px){
 
