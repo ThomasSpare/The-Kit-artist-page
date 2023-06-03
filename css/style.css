@@ -4,26 +4,40 @@
 /* General */
 
 body {background-color: #56423D;
-  position: fixed;
-  max-width: none; 
-  background-repeat: no-repeat; 
+}
+
+.container{
+  margin-top: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  flex: 1 1 400px;
+}
+
+.expanding {
+background-image: url("images/mainpage-the-kit-show.jpg");
+background-size: 100%;
+margin-top: 0;
+transition: 20s;
+position:absolute;
+max-width: none; 
+
+}
+
+.expanding:hover {
+background-size: 120%;
 }
 
 
 /* Flex boxes */
 
-.box {
-  height: 300px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 
-.box>* {
-  flex: 1 1 400px;
-}
+
 
 /*------------------*/
+
+/* Firts div under navbar */
 
 .column{
   background-color: #BEA6A0;
