@@ -24,10 +24,7 @@ body > div > div:nth-child(1) > h2{
 body > div.row > div.expanding > img{
   background-image: url("images/mainpage-the-kit-show.jpg");
   background-size: 100%;
-  display: block;
   justify-content: center;
-
-
 }
 
 /* Form on main page */
@@ -111,9 +108,9 @@ color:#2e738f;
 
 .footer{
     margin:auto;
-    position: fixed;
+    position: absolute;
     left: 0;
-    bottom: 0%;
+    top: 200vh;
     width: 100%;
     background-color: #413937;
     color: white;
@@ -141,6 +138,11 @@ img:hover{
 /* background image */
 body > div > div:nth-child(2) > img{
   margin-right: 40%;
+  border-style: solid;
+  border-width: thick;
+  border-color: #000000de;
+  border-radius: 20px;
+
 }
 
 #img1{
@@ -209,23 +211,28 @@ body > div > div:nth-child(2) > img{
 
 @media screen and (max-width: 425px){
 
+.container{
+  width: 100vw;
+}
 .column{
-  width: 200%; 
+  display:block; 
   text-align:left; 
   align-content: center;
 }
     
 body{
+  display: block;
   transition: none;
   background-size: 200%;
 }
     
 .footer{
-  max-width: display;
-  margin:auto;
+  margin: auto;
+  top: 340vh;
 }
     
 #nav{
+  display: block;
   width:max-content;
   font-size: x-large;
 }
