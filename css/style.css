@@ -6,54 +6,47 @@
 body {background-color: #56423D;
 }
 
+body > div > div:nth-child(1) > h2{
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
 .container{
-  margin-top: 70vh;
+  margin-top: 0vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: 300px;
-  flex: 1 1 400px;
+  flex: 1 1 200px;
+  justify-content: center;
 }
 
-.expanding {
-background-image: url("images/mainpage-the-kit-show.jpg");
-background-size: 100%;
-margin-top: 0;
-transition: 20s;
-position:absolute;
-max-width: none; 
+body > div.row > div.expanding > img{
+  background-image: url("images/mainpage-the-kit-show.jpg");
+  background-size: 100%;
+  display: block;
+  justify-content: center;
+
 
 }
 
-.expanding:hover {
-background-size: 120%;
+/* Form on main page */
+body > div.container > div:nth-child(2) > form{
+  margin-left: 50%;  
+  height: 300px; 
+  margin-top: 30%;
 }
 
 
 /* Flex boxes */
 
-
-
-
-/*------------------*/
-
 /* Firts div under navbar */
 
 .column{
   background-color: #BEA6A0;
+  margin-bottom: 100px;
   
 }
-
-body > div:nth-child(4){
-  margin:auto;
-}
-
-.row:after{ 
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 /* Fonts */
 
@@ -103,7 +96,13 @@ color:#2e738f;
 }
 
 
-/* Footer Navigation */
+/* Navigation */
+
+#iframe{
+  border-radius:12px; margin-right: 80%;
+  z-index: 999;
+  position:relative;
+}
 
 .header{
   margin-top: 0%;
@@ -139,8 +138,22 @@ img:hover{
   transform: scale (120%);
   transition-duration: 300ms;
 }
+/* background image */
+body > div > div:nth-child(2) > img{
+  margin-right: 40%;
+}
+
+#img1{
+  height: 300px;
+  border-style: solid;
+  border-width: thick;
+  margin-left: 20%;
+  border-color: #000000de;
+  border-radius: 20px;
+}
                         
 #logo{
+  z-index: 999;
   position: absolute;
   font-family: 'Golos Text', sans-serif; 
   font-size: 18px;
@@ -158,8 +171,27 @@ img:hover{
 
 
 #logo{margin-left: 20%;}
-                                               
-#img2{ height: 400px;}
+
+
+/* 2 artist photos on main page  */ 
+
+#img2{
+  height:300px;
+  border-style: solid; 
+  border-width: thick;
+  margin-left: 20%; 
+  border-color: #000000de; 
+  border-radius: 20px; 
+}
+
+#img3{
+  height: 300px;
+  margin-left: 20%; 
+  border-style: solid; 
+  border-width: thick; 
+  border-color: #000000de; 
+  border-radius: 20px;
+}
  
 
 
