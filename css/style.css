@@ -20,11 +20,16 @@ body > div > div:nth-child(1) > h2{
   flex: 1 1 200px;
   justify-content: center;
 }
+/*Shows div main page */
+body > div.container > div:nth-child(1){
+  margin-block: -32px;
+  margin-left: -190px;
+  margin-right: 9px;
+}
 
-body > div.row > div.expanding > img{
-  background-image: url("images/mainpage-the-kit-show.jpg");
-  background-size: 100%;
-  justify-content: center;
+/* Main cover photo */
+body > div > div:nth-child(2) > img{
+
 }
 
 /* Form on main page */
@@ -48,18 +53,26 @@ body > div.container > div:nth-child(2) > form{
 /* Fonts */
 
 h1{
-  color: rgb(24, 24, 24); 
+  color: rgb(226, 226, 226); 
   font-family: 'Croissant One', cursive;
   font-weight: 400;
   text-align: center; 
   font-size: 24px; ;
-  font-family: 'Golos Text', sans-serif;
 }
 
 h2{color: rgb(247, 247, 247); 
   text-align: left; 
   font-size: 18px;
   font-family: 'Golos Text', sans-serif;
+}
+
+
+h3{
+  color: rgb(230, 230, 230); 
+  font-family: 'Croissant One', cursive;
+  font-weight: 400;
+  text-align: center; 
+  font-size: 24px; ;
 }
 
 p{color: rgb(247, 247, 247); 
@@ -84,12 +97,12 @@ a{
   font-size: large; 
   margin:20px; 
   text-decoration: none;
-  color: #56423D;
+  color: #d8d8d8;
 } 
     
 a:hover{margin:20px; 
 text-decoration: none; 
-color:#2e738f;
+color:#60f4ff;
 }
 
 
@@ -122,7 +135,7 @@ color:#2e738f;
     margin: initial;
     left: 0px;
     height: 30px;
-    width: 100%;
+    width: 141vw;
     margin-top: -10px;
     text-align: center;
     font-family: 'Golos Text', sans-serif;
@@ -211,6 +224,11 @@ body > div > div:nth-child(2) > img{
 
 @media screen and (max-width: 425px){
 
+/* Main cover photo */
+body > div > div:nth-child(2) > img{
+  width: 100vw;
+}  
+
 .container{
   width: 100vw;
 }
@@ -223,22 +241,23 @@ body > div > div:nth-child(2) > img{
 body{
   display: block;
   transition: none;
-  background-size: 200%;
+  background-size: 100vw;
 }
     
 .footer{
   margin: auto;
-  top: 340vh;
+  top:300vh;
 }
     
 #nav{
+  width: 67vw;
   display: block;
-  width:max-content;
-  font-size: x-large;
+  height: auto;
 }
     
 #logo{
-  margin-top: 50%;
+  display: block;
+  margin-top: 10%;
 }
     
 p{
@@ -252,18 +271,28 @@ p{
 }
     
 #img2{
-  margin-left: 0%;
-  margin-top:20px;
-  height: 400px;
-  margin-left: 100px;
+    margin-top: -1px;
+    height: 274px;
+    margin-left: -17px;
 }
-      
+
+#img3{
+  height: 159px;
+  margin-left: -155px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #000000de;
+  border-radius: 18px;
+}
 @media screen and (max-width: 425px){ 
   .nav{
-    margin:auto
+    width: 67vw;
+    display: block;
+    height: auto;
   }
   a{font-size: medium;}
   h2{font-size: small;}
-  #nav{width: fit-content;}
+  #nav{width: 104vw;
+    height: 50px;;}
 }
 }
