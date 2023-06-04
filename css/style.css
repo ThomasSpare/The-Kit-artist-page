@@ -12,7 +12,7 @@ body > div > div:nth-child(1) > h2{
 }
 
 .container{
-  margin-top: 0vh;
+  margin-top: 5vh;  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -20,6 +20,60 @@ body > div > div:nth-child(1) > h2{
   flex: 1 1 200px;
   justify-content: center;
 }
+
+
+#colum_container{
+  margin-top: 18vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 259px;
+  flex: 1 1 200px;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+#colum_container > div{
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 10px;
+  top: 6vh;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: #33302f;
+  border-color: #33302f;
+  border-width: 5px;
+}
+
+#colum_container > div:hover{
+  background-color: rgba(62, 41, 70, 0.808);
+  transition: 500ms;
+}
+
+#Quotediv{
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 10px;
+  top: 6vh;
+  margin: 10px;
+  padding: 10px;
+  width: 549px;
+  height: 190px;
+  margin: auto;
+  border: #33302f;
+  border-color: #33302f;
+  border-width: 5px;
+  }
+
+  #Quotediv:hover{
+    background-color: rgba(62, 41, 70, 0.808);
+    transition: 500ms;
+  }
+
+
+
+
 /*Shows div main page */
 body > div.container > div:nth-child(1){
   margin-block: -32px;
@@ -53,14 +107,14 @@ body > div.container > div:nth-child(2) > form{
 /* Fonts */
 
 h1{
-  color: rgb(226, 226, 226); 
+  color: blanchedalmond; 
   font-family: 'Croissant One', cursive;
   font-weight: 400;
   text-align: center; 
   font-size: 24px; ;
 }
 
-h2{color: rgb(247, 247, 247); 
+h2{color: blanchedalmond; 
   text-align: left; 
   font-size: 18px;
   font-family: 'Golos Text', sans-serif;
@@ -68,15 +122,14 @@ h2{color: rgb(247, 247, 247);
 
 
 h3{
-  color: rgb(230, 230, 230); 
+  color: blanchedalmond; 
   font-family: 'Croissant One', cursive;
   font-weight: 400;
   text-align: center; 
   font-size: 24px; ;
 }
 
-p{color: rgb(247, 247, 247); 
-  text-align: justify; 
+p{color:blanchedalmond; 
   margin-top: 20px; 
   margin-left:20px; 
   font-size: 15px;
@@ -97,7 +150,7 @@ a{
   font-size: large; 
   margin:20px; 
   text-decoration: none;
-  color: #d8d8d8;
+  color: #474747;
 } 
     
 a:hover{margin:20px; 
@@ -134,12 +187,12 @@ color:#60f4ff;
     position: fixed;
     margin: initial;
     left: 0px;
-    height: 30px;
+    height: 49px;
     width: 141vw;
     margin-top: -10px;
     text-align: center;
     font-family: 'Golos Text', sans-serif;
-    background-color: #00bbff6e;
+    background-color: #00bbffee;
 }
 
 /* Images | LOGO */
@@ -158,6 +211,18 @@ body > div > div:nth-child(2) > img{
 
 }
 
+#logosupport{
+  margin-right: 10vw;
+  height: 250px;
+}
+
+
+/* Gallery images sizes */
+body > div.img {
+  width: 60px;
+}
+
+
 #img1{
   height: 300px;
   border-style: solid;
@@ -175,7 +240,9 @@ body > div > div:nth-child(2) > img{
   margin-top: 10px;
 }
 
-#icons{height: 80px;
+/* Social media buttons footer */
+#icons{
+  height: 50px;
 }
 
 #icons:hover{
@@ -185,7 +252,8 @@ body > div > div:nth-child(2) > img{
 
 
 
-#logo{margin-left: 20%;}
+#logo{margin-left: 20%;
+height:250px}
 
 
 /* 2 artist photos on main page  */ 
@@ -219,6 +287,10 @@ body > div > div:nth-child(2) > img{
     transition: none;
     background-repeat: no-repeat;
 }
+
+#logo{
+  display: none;
+}
 }
 
 
@@ -226,16 +298,28 @@ body > div > div:nth-child(2) > img{
 
 /* Main cover photo */
 body > div > div:nth-child(2) > img{
-  width: 100vw;
+  margin-left: -14px;
+  width: 95vw;
+  display: block;
+  margin-bottom: 10px;
 }  
 
+/* next show */
+body > div.container > div:nth-child(1) {
+  margin-block: -18px;
+  margin-left: 24px;
+  margin-right: 25px;
+}
 .container{
   width: 100vw;
 }
+
 .column{
-  display:block; 
-  text-align:left; 
+  display: block;
+  text-align: left;
   align-content: center;
+  margin-right: 17px;
+  padding: 15px;
 }
     
 body{
@@ -254,12 +338,7 @@ body{
   display: block;
   height: auto;
 }
-    
-#logo{
-  display: block;
-  margin-top: 10%;
-}
-    
+
 p{
   font-size:x-small;
   text-align: justify;
@@ -277,22 +356,32 @@ p{
 }
 
 #img3{
-  height: 159px;
-  margin-left: -155px;
+  height: 248px;
+  margin-left: -11px;
   border-style: solid;
   border-width: thick;
   border-color: #000000de;
   border-radius: 18px;
 }
 @media screen and (max-width: 425px){ 
+
+  body > div:nth-child(2){
+    display: none;
+  }
   .nav{
     width: 67vw;
     display: block;
     height: auto;
   }
-  a{font-size: medium;}
-  h2{font-size: small;}
-  #nav{width: 104vw;
-    height: 50px;;}
+  a{
+    font-size: medium;
+  }
+  h2{
+    font-size: small;
+  }
+  #nav{
+    width: 104vw;
+    height: 69px;
+}
 }
 }
