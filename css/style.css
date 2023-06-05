@@ -9,6 +9,15 @@ body {
 
 }
 
+#footersupport {
+  margin-top: -1128px;
+  padding-left: 696px;
+}
+
+.spacer{
+  height:100px;
+}
+
 body > div > div:nth-child(1) > h2{
   margin-top: 40px;
   margin-right: 20px;
@@ -26,15 +35,17 @@ body > div > div:nth-child(1) > h2{
 
 
 #colum_container{
-  margin-top: 18vh;
+  margin-top: 1vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 259px;
+  height: 556px;
+  position: absolute;
   flex: 1 1 200px;
   justify-content: center;
   align-content: center;
   align-items: flex-start;
+  margin-left: 331px;
 }
 
 #colum_container > div{
@@ -58,15 +69,17 @@ body > div > div:nth-child(1) > h2{
 #Quotediv{
   background-color: rgba(0, 0, 0, 0.808);
   border-radius: 10px;
-  top: 6vh;
   margin: 10px;
-  padding: 10px;
+  padding: 4px;
+  align-items: center;
   width: 549px;
-  height: 190px;
-  margin: auto;
+  height: 202px;
   border: #33302f;
   border-color: #33302f;
   border-width: 5px;
+  margin-top: 511px;
+  position: absolute;
+  margin-left: 640px;
   }
 
   #Quotediv:hover{
@@ -89,6 +102,37 @@ body > div > div:nth-child(1) > h2{
     background-color: black;
     padding: 55px;
   }
+
+
+  /* Special effects */
+  .blob {
+    background: black;
+    border-radius: 50%;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	  transform: scale(1);
+	  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
 
 
 /* Columns in news section */
@@ -249,6 +293,7 @@ body > div.img {
 
 #img1{
   height: 300px;
+  width: 300px;
   border-style: solid;
   border-width: thick;
   margin-left: 20%;
@@ -311,7 +356,20 @@ height:250px}
     transition: none;
     background-repeat: no-repeat;
 }
-
+#Quotediv{
+  width: 368px;
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 10px;
+  margin: 10px;
+  padding: -54px;
+  height: 205px;
+  margin: auto;
+  border: #33302f;
+  border-color: #33302f;
+  border-width: 5p;
+  margin-top: 141px;
+  position: absolute;
+}
 
 
 #logo{
@@ -344,7 +402,20 @@ body > div > div:nth-child(2) > img{
   width: 95vw;
   display: block;
   margin-bottom: 10px;
-}  
+}
+
+#colum_container {
+  margin-top: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 543px;
+  position: absolute;
+  flex: 1 1 200px;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
 
 
 /* next show */
