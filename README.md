@@ -172,7 +172,15 @@ HTML, CSS
 Balsamiq Wireframes, Microsoft Paint, Adobe illustrator, Github, Gitpod, Photo Leap (mobile application)
 
 ## Deployment ##
-I used github to deploy my site
+
+The site was deployed to GitHub pages. The steps to deploy as follows:
+
+1. Final gitpush from Gitpod
+2. In settings in my github repository
+3. Select The branch to deploy
+4. The site deployed succesfully
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 ---
 
