@@ -28,7 +28,7 @@ body > div > div:nth-child(1) > h2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 300px;
+  min-height: auto;
   flex: 1 1 200px;
   justify-content: center;
 }
@@ -39,7 +39,7 @@ body > div > div:nth-child(1) > h2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 556px;
+  min-height: auto;
   position: absolute;
   flex: 1 1 200px;
   justify-content: center;
@@ -55,7 +55,7 @@ body > div > div:nth-child(1) > h2{
   margin: 10px;
   padding: 10px;
   width: 250px;
-  height: 250px;
+  min-height: auto;
   border: #33302f;
   border-color: #33302f;
   border-width: 5px;
@@ -94,7 +94,7 @@ body > div > div:nth-child(1) > h2{
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100vw;
-    height: 100vh;
+    min-height: auto;
     flex: 1 1 188px;
     justify-content: center;
     align-content: center;
@@ -151,7 +151,6 @@ body > div > div:nth-child(1) > h2{
 
 /*Shows div main page */
 body > div.container > div:nth-child(1){
-  margin-block: -30px;
     margin-left: 6px;
     margin-right: 9px;
 }
@@ -167,7 +166,7 @@ body > div.container > div:nth-child(2) > form{
 
 /* Flex boxes */
 
-/* Firts div under navbar */
+/* First div under navbar */
 
 .column{
   background-color: #BEA6A0;
@@ -238,14 +237,22 @@ color:#60f4ff;
   position:relative;
 }
 
+li {
+  float: left;
+  list-style: none;
+  border-right: 1px solid #31435a;
+}
+
 .header{
   margin-top: 0%;
+  align-items: center;
+
 }
 
 .footer{
   position: absolute;
-  left: 0;
-  top: 200vh;
+  height: 120px;
+
   width: 100%;
   background-color: #413937;
   color: white;
@@ -254,7 +261,7 @@ color:#60f4ff;
 #nav {
     position: fixed;
     margin: initial;
-    left: 0px;
+    padding-left: 38vw;
     height: 49px;
     width: 141vw;
     margin-top: -10px;
@@ -286,10 +293,11 @@ body > div > div:nth-child(2) > img{
 
 
 /* Gallery images sizes */
-body > div.img {
-  width: 60px;
-}
 
+body > div > div> div> a > img{
+  width: 800px;
+  height: 600px;
+}
 
 #img1{
   height: 300px;
@@ -484,9 +492,6 @@ p{
 }
 @media screen and (max-width: 425px){ 
 
-  body > div:nth-child(2){
-    display: none;
-  }
   .nav{
     width: 67vw;
     display: block;
@@ -494,6 +499,7 @@ p{
   }
   a{
     font-size: medium;
+    margin: 12px;
   }
   h2{
     font-size: small;
@@ -501,6 +507,11 @@ p{
   #nav{
     width: 104vw;
     height: 69px;
+}
+#navgallery{
+  width: 104vw;
+  height: 69px;
+}
 }
 }
 }
