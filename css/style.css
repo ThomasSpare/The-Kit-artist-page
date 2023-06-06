@@ -6,7 +6,8 @@
 body {
   background: rgb(34,193,195);
   background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(77,56,12,1) 100%);
-
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #footersupport {
@@ -250,24 +251,25 @@ li {
 }
 
 .footer{
-  position: absolute;
-  height: 120px;
-
-  width: 100%;
-  background-color: #413937;
-  color: white;
+  display: flex;
+  margin: auto;
+  bottom: 0;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 30px;
+  background-color: #f0f8ff00;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 
 #nav {
-    position: fixed;
-    margin: initial;
-    padding-left: 38vw;
-    height: 49px;
-    width: 141vw;
-    margin-top: -10px;
-    text-align: center;
-    font-family: 'Golos Text', sans-serif;
-    background-color: #00bbffee;
+  position: fixed;
+  width: 100vw;
+  height: 49px;
+  top: 0;
+  text-align: center;
+  font-family: 'Golos Text', sans-serif;
+  background-color: #00bbffee;
 }
 
 /* Images | LOGO */
@@ -278,6 +280,7 @@ img:hover{
 }
 /* background image */
 body > div > div:nth-child(2) > img{
+  width: 100%;
   margin-right: 40%;
   border-style: solid;
   border-width: thick;
@@ -360,7 +363,8 @@ height:250px}
 
 @media screen and (max-width: 1024px){
   body{ 
-    max-width: 100vmin; 
+    max-width: 100%; 
+    overflow-x: hidden;
     transition: none;
     background-repeat: no-repeat;
 }
@@ -404,6 +408,12 @@ height:250px}
 
 @media screen and (max-width: 425px){
 
+/* Gallery Images */
+body > div > div> div> a > img{
+  width: 100vw;
+  height: auto;
+}
+
 /* Main cover photo */
 body > div > div:nth-child(2) > img{
   margin-left: -14px;
@@ -444,15 +454,25 @@ body > div.container > div:nth-child(1) {
   padding: 15px;
 }
     
+
+/* Prevent X scrolling on small devices*/
 body{
+  max-width: 100%;
+  overflow-x: hidden;
   display: block;
   transition: none;
-  background-size: 100vw;
 }
     
 .footer{
+  display: flex;
   margin: auto;
-  top:300vh;
+  bottom: 0;
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 396px;
+  background-color: #f0f8ff00;
 }
     
 #nav{
@@ -490,7 +510,6 @@ p{
   border-color: #000000de;
   border-radius: 18px;
 }
-@media screen and (max-width: 425px){ 
 
   .nav{
     width: 67vw;
@@ -504,14 +523,15 @@ p{
   h2{
     font-size: small;
   }
-  #nav{
-    width: 104vw;
-    height: 69px;
+  #nav,
+  #navgallery{
+    top: 0;
+    margin: auto;
+    position: fixed;
+    height: auto;
+    width: 100%;
 }
-#navgallery{
-  width: 104vw;
-  height: 69px;
+
 }
-}
-}
-}
+
+
