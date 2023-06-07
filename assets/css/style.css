@@ -160,10 +160,9 @@ body > div.container > div:nth-child(1){
 
 
 /* Form on main page */
-body > div.container > div:nth-child(2) > form{
-  margin-left: 50%;  
-  height: 300px; 
-  margin-top: 30%;
+body > div.container > div:nth-child(5) > form{
+  margin-block: 28px;
+  margin-inline: 27px;
 }
 
 
@@ -246,7 +245,7 @@ color:#60f4ff;
 /* Navigation */
 
 #iframe{
-  border-radius: -47px;
+  border-radius: 47px;
   margin-right: 80%;
   z-index: 999;
   position: relative;
@@ -311,10 +310,7 @@ li {
 
 /* Images | LOGO */
 
-img:hover{
-  transform: scale (120%);
-  transition-duration: 300ms;
-}
+
 /* background image */
 body > div > div:nth-child(2) > img{
   width: 100%;
@@ -325,13 +321,6 @@ body > div > div:nth-child(2) > img{
   border-radius: 20px;
 
 }
-
-#logosupport{
-  margin-right: 10vw;
-  height: 250px;
-}
-
-
 /* Gallery images sizes */
 
 body > div > div> div> a > img{
