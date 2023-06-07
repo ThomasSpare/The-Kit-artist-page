@@ -4,8 +4,10 @@
 /* General */
 
 body {
-  background: rgb(34,193,195);
-  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(77,56,12,1) 100%);
+  background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -28,7 +30,7 @@ body > div > div:nth-child(1) > h2{
 }
 
 .container{
-  margin-top: 5vh;  
+  margin-top: 41px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -107,6 +109,12 @@ body > div > div:nth-child(1) > h2{
     padding: 55px;
   }
 
+  /* Confirmation thankyou page */
+.confirmation{
+  margin-top: 20%;
+  margin-left: 25%;
+}
+
 
   /* Special effects */
   .blob {
@@ -137,20 +145,16 @@ body > div > div:nth-child(1) > h2{
 	}
 }
 
-
 /* Columns in news section */
-  #newscontainer > div{
-    width: 100%;
-    padding: 38px;
+#newscontainer > div{
+  width: 100%;
+  padding: 38px;
     
-  }
+}
 
-  #newscontainer > div> p{
-    width:fit-content;
-  }
-
-
-
+#newscontainer > div> p{
+  width:fit-content;
+}
 
 /*Shows div main page */
 body > div.container > div:nth-child(1){
@@ -165,11 +169,7 @@ body > div.container > div:nth-child(5) > form{
   margin-inline: 27px;
 }
 
-
-/* Flex boxes */
-
 /* First div under navbar */
-
 .column{
   background-color: #BEA6A0;
   margin-bottom: 100px;
@@ -238,14 +238,13 @@ a{
     
 a:hover{margin:20px; 
 text-decoration: none; 
-color:#60f4ff;
+color: #217394;
 }
 
 
 /* Navigation */
 
 #iframe{
-  border-radius: 47px;
   margin-right: 80%;
   z-index: 999;
   position: relative;
@@ -270,10 +269,12 @@ li {
   align-items: center;
   flex-direction: row;
   height: 96px; 
-  background-color: #f0f8ff00;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  background: #16222A;
+  background: -webkit-linear-gradient(to top, #3a607357, #16222a49);  
+  background: linear-gradient(to top, #3a60735b, #16222a56); 
 }
 
 /* vertical fixed footer for gallery section */
@@ -288,6 +289,7 @@ li {
   flex-wrap: nowrap;
   align-content: stretch;
   justify-content: flex-end;
+  background: none;
 }
 
 #nav {
@@ -297,7 +299,7 @@ li {
   top: 0;
   text-align: center;
   font-family: 'Golos Text', sans-serif;
-  background-color: #00bbffee;
+  background-color: #34e89e;
 }
 
 
@@ -321,7 +323,12 @@ body > div > div:nth-child(2) > img{
   border-radius: 20px;
 
 }
-/* Gallery images sizes */
+/* Gallery */
+
+.gallery{
+  margin-top: auto;
+  background-color: #98f3c1ee;
+}
 
 body > div > div> div> a > img{
   width: 800px;
@@ -444,6 +451,14 @@ height:250px}
     padding: 0;
 }
 
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+}
+
 #img1{
   margin-left: 10%;
   text-align: center; 
@@ -454,8 +469,13 @@ height:250px}
 
 }
 
-#nav > li:nth-child(2) {
-  margin-left: 10%;
+#img2,
+#img3 {  
+  margin-left: 5%;
+}
+
+#nav > ul > li:nth-child(1) {
+    margin-left: 10%;
 }
 
 body > div.container > div:nth-child(5) > form{
@@ -484,6 +504,18 @@ body > div.container > div:nth-child(5) > form{
   margin-left: 0;
 }
 
+.show, .footer:hover {
+  display: block;
+}
+
+body > div.container > div.column > p{
+  font-size: smaller;
+  text-align: justify;
+  margin: 1em;
+  margin: 9px;
+  margin-right: 6px;
+}
+
 /* Gallery Images */
 body > div > div> div> a > img{
   width: 100vw;
@@ -499,11 +531,11 @@ body > div > div:nth-child(2) > img{
 }
 
 #colum_container {
+  height: 425px;
   margin-top: 143vh;
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: nowrap;
-  height: 394px;
   margin-left: 10%;
   position: absolute;
   flex: 1 1 200px;
@@ -546,6 +578,7 @@ body{
   position: fixed;
   bottom: 0;
   justify-content: center;
+  width: 100%;
 }
 
 #galleryfooter{
@@ -583,7 +616,7 @@ body{
 
 /* Nav menu on small screen */
 #nav > ul > li:nth-child(1) {
-  margin-left: 3%;
+  margin-left: 0;
 }
 
 #nav > li:nth-child(2) {
