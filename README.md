@@ -130,8 +130,8 @@ The navbar from the outset was supposed to have non-transparent bakground and I 
 
 ![The kit logo](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/The%20Kit%20LOGO.png)
 
-I wanted to use red in my pallette and found this pallette to use.
-![Collor Pallette](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/Matching%20pallette.jpg)
+For background I used a gradient from uiGradients.com called pacific dream
+![Collor Pallette](https://github.com/ThomasSpare/The-Kit-artist-page/blob/d2f3fcffaeab17ee089431b4fbf5c116e6926d87/documentation/pacific-dream.jpg)
 
 
 ---
