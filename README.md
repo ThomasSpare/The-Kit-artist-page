@@ -180,7 +180,7 @@ The site was deployed to GitHub pages. The steps to deploy as follows:
 3. Select The branch to deploy
 4. The site deployed succesfully
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - 
 
 ---
 
@@ -196,34 +196,17 @@ I fixed this on all pages and this improved translation to smaller devices.
 
 ## Testing
   
-  **All tests can be found in the documentation folder in my repository**
-  [Documentation](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation)
+ **All tests can be found in the documentation folder in my repository**
+ [Documentation](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation)
+ 
 
-**Responsive testing**
-Below are links to screenshots when performing test on an Ipad Mini
+## Lighthouse tests
+ - Lighthouse test on mobile navigation
+ ![Lighthouse mobile](https://github.com/ThomasSpare/The-Kit-artist-page/blob/434c942ccd21807033823a4aa11f8bff4fdb4aca/documentation/LH%20mobile.jpg)
   
-[ipad test screenshots](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/Ipad)
-  
-And test on Iphone 12 pro
-[Iphone 12 Pro test](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/Iphone%2012%20pro)
-
-  
-  
-
-## Lighthouse test
-  When conducting test in google dev lighthouse I found errors on the main page
-  these where:
-  * Some Imgages dont have fixed width or height
-  * missing specified charset in head, or to late
-  * Some images are missing alt="" text
-  
- After fixing these errors I could see the performance and accessibilty went up in the green.
- And after some tweaking the score looked like this:
-  ![Lighthouse for mainpage](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/test/responsive/lighthouse/Lighthouse%20test%20main%20page.jpg)
- [Lighthouse tests all pages](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/lighthouse)
-  
-  I only tested for desktop devices. I went on after this and improved more on the code for improved accessibilty
-  but have not documented it yet.
+ - Lighthouse test on desktop navigation
+ [Lighthouse desktop](https://github.com/ThomasSpare/The-Kit-artist-page/blob/434c942ccd21807033823a4aa11f8bff4fdb4aca/documentation/LH%20desktop.jpg)
+ 
   
   --
   
@@ -239,12 +222,8 @@ And test on Iphone 12 pro
   --
   
   **Manual Testing**
-  
-  I also manually performed test on my own iphone 12 by looking on the deployed
-  site. I found some issues with the support section that could be improved visually.
-  Other then that I could navigate the site, fill in the forms on the main page
-  and in the merch section and saw a submit form message
-  when I correctly submited my email.
+  I had the site tested by my fellow coders Mark and Shubham who pointed out some errors and I could
+  adjust for better performance. 
   
   **Inter explorer**
   I tested the deployed site in Microsoft Edge browser
@@ -256,9 +235,9 @@ And test on Iphone 12 pro
   
   ## Credits:
   
-  Thanks to Kera Cudrow for excellent walkthrough of the readme section.
+  Thanks to Mark and Shubham for good feedback
   
-  Thanks to my mentor Brian O'hare for insights and invaluable pointers 
+  Thanks to my mentor Brian O'hare for help and insights
   
   
   
