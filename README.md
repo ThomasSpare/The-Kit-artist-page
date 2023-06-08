@@ -229,10 +229,12 @@ And test on Iphone 12 pro
   
   ## W3C Validator
   
-  I tested the sites pages in W3C checker, using my url for the live pages. The test with W3C revealed several erros
-  in code. Many of the issues had to do with Duplicate of code or wrong input of code. So a more thorough debugging
-  of the code with w3C as a reference would need to be carried out. 
+  I tested the sites pages in W3C checker, using my url for the live pages.
   
+  - The spotify iframe, w3c showed an error for using % instead of an integer (fixed)
+  -
+  
+ 
   --
   
   **Manual Testing**
