@@ -87,7 +87,7 @@ a new design of a merch item.
 
 **Support section**
 This where links to the bands platforms are gathered. By clicking them the user opens a new tab to the bands user profile on the choosen platform.
-
+![support page](https://github.com/ThomasSpare/The-Kit-artist-page/blob/ee8d60c3696989ce12761efed875faccf34217a6/documentation/support.jpg)
 
 
 
