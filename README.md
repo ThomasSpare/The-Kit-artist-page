@@ -177,8 +177,9 @@ The site was deployed to GitHub pages. The steps to deploy as follows:
 
 1. Final gitpush from Gitpod
 2. In settings in my github repository
-3. Select The branch to deploy
-4. The site deployed succesfully
+3. go to settings / pages
+4. Select The branch to deploy
+5. The site deployed succesfully
 
 The live link can be found here - 
 
