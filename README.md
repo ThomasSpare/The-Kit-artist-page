@@ -19,7 +19,7 @@ preferably live photos from shows they had.
 
 ---
 
-![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/Device%20view%20preview.jpg)
+![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/de1148b9ee267ce4e80dfc15a8dc66c7c8729513/documentation/responsive.jpg)
 
 ----
 
