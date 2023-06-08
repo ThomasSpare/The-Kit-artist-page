@@ -19,7 +19,7 @@ preferably live photos from shows they had.
 
 ---
 
-![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/Device%20view%20preview.jpg)
+![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/de1148b9ee267ce4e80dfc15a8dc66c7c8729513/documentation/responsive.jpg)
 
 ----
 
@@ -77,17 +77,17 @@ write a request for certain items.
 **Gallery**
 In the gallery below are photos that the user can hover over to enlarge them or press a photo to open it 
 in a new tab. This section can be filled with more photos later on.
-![Gallery section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/screenshots/screenshot%20gallery%20section.png)
+![Gallery section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/2b84773be2909c61daa7f26ef5c2fa8c40dbbb73/documentation/gallery.jpg)
 
 **News section**
 In the news section below are two columns. The first column is a fan oriented column displaying photos and comments mostly
 from fans. The right column is where the band can post news and share what is going on like upcoming releases or
 a new design of a merch item.
-![News section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/graphic/screenshots/screenshot%20news%20section.png)
+![News section](https://github.com/ThomasSpare/The-Kit-artist-page/blob/2b84773be2909c61daa7f26ef5c2fa8c40dbbb73/documentation/news-page.jpg)
 
 **Support section**
 This where links to the bands platforms are gathered. By clicking them the user opens a new tab to the bands user profile on the choosen platform.
-
+![support page](https://github.com/ThomasSpare/The-Kit-artist-page/blob/ee8d60c3696989ce12761efed875faccf34217a6/documentation/support.jpg)
 
 
 
@@ -124,9 +124,9 @@ This where links to the bands platforms are gathered. By clicking them the user 
 ## Design
 
 I wanted the main page to have a large area for photos, so I
-thought a transparent navigation bar would be good on this page. Although carefull not causing this to inflict difficulty navigating the site I decided to use black fonts on a light background.
+thought a transparent navigation bar would be good on this page. In the gallery page below the footer will show up fixed in vertical on the left side when scrolling on larger screens, on smaller devices its fixed at bottom of screen. I made it vertical on only this page as this page can be quite long before reaching the bottom with added photos after a while.
 
-The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone.
+The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone. The logo will show up on larger screens but only the index page and will not display on smaller screens. In the index page at the bottom I also used a customized css animation called pulse for the merch image to draw attention to it. If the visitor clicks the T-shirt image they will be forwarded to the merch page. 
 
 ![The kit logo](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/The%20Kit%20LOGO.png)
 
@@ -180,7 +180,7 @@ The site was deployed to GitHub pages. The steps to deploy as follows:
 3. Select The branch to deploy
 4. The site deployed succesfully
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - 
 
 ---
 
@@ -196,52 +196,34 @@ I fixed this on all pages and this improved translation to smaller devices.
 
 ## Testing
   
-  **All tests can be found in the documentation folder in my repository**
-  [Documentation](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation)
+ **All tests can be found in the documentation folder in my repository**
+ [Documentation](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation)
+ 
 
-**Responsive testing**
-Below are links to screenshots when performing test on an Ipad Mini
+## Lighthouse tests
+ - Lighthouse test on mobile navigation
+ ![Lighthouse mobile](https://github.com/ThomasSpare/The-Kit-artist-page/blob/434c942ccd21807033823a4aa11f8bff4fdb4aca/documentation/LH%20mobile.jpg)
   
-[ipad test screenshots](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/Ipad)
-  
-And test on Iphone 12 pro
-[Iphone 12 Pro test](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/Iphone%2012%20pro)
-
-  
-  
-
-## Lighthouse test
-  When conducting test in google dev lighthouse I found errors on the main page
-  these where:
-  * Some Imgages dont have fixed width or height
-  * missing specified charset in head, or to late
-  * Some images are missing alt="" text
-  
- After fixing these errors I could see the performance and accessibilty went up in the green.
- And after some tweaking the score looked like this:
-  ![Lighthouse for mainpage](https://github.com/ThomasSpare/The-Kit-artist-page/blob/main/documentation/test/responsive/lighthouse/Lighthouse%20test%20main%20page.jpg)
- [Lighthouse tests all pages](https://github.com/ThomasSpare/The-Kit-artist-page/tree/main/documentation/test/responsive/lighthouse)
-  
-  I only tested for desktop devices. I went on after this and improved more on the code for improved accessibilty
-  but have not documented it yet.
+ - Lighthouse test on desktop navigation
+ [Lighthouse desktop](https://github.com/ThomasSpare/The-Kit-artist-page/blob/434c942ccd21807033823a4aa11f8bff4fdb4aca/documentation/LH%20desktop.jpg)
+ 
   
   --
   
   ## W3C Validator
   
-  I tested the sites pages in W3C checker, using my url for the live pages. The test with W3C revealed several erros
-  in code. Many of the issues had to do with Duplicate of code or wrong input of code. So a more thorough debugging
-  of the code with w3C as a reference would need to be carried out. 
+  I tested the sites pages in W3C checker, using my url for the live pages.
   
+  - Errors about the The spotify iframe, w3c showed an error for using % instead of an integer
+    also frameborder comes up as an error. 
+  
+  Other than this w3c shows no error in the code
+ 
   --
   
   **Manual Testing**
-  
-  I also manually performed test on my own iphone 12 by looking on the deployed
-  site. I found some issues with the support section that could be improved visually.
-  Other then that I could navigate the site, fill in the forms on the main page
-  and in the merch section and saw a submit form message
-  when I correctly submited my email.
+  I had the site tested by my fellow coders Mark and Shubham who pointed out some errors and I could
+  adjust for better performance. 
   
   **Inter explorer**
   I tested the deployed site in Microsoft Edge browser
@@ -253,9 +235,9 @@ And test on Iphone 12 pro
   
   ## Credits:
   
-  Thanks to Kera Cudrow for excellent walkthrough of the readme section.
+  Thanks to Mark and Shubham for good feedback
   
-  Thanks to my mentor Brian O'hare for insights and invaluable pointers 
+  Thanks to my mentor Brian O'hare for help and insights
   
   
   
