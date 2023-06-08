@@ -19,6 +19,8 @@ preferably live photos from shows they had.
 
 ---
 
+Live site - https://thomasspare.github.io/The-Kit-artist-page/
+
 ![Preview after build](https://github.com/ThomasSpare/The-Kit-artist-page/blob/de1148b9ee267ce4e80dfc15a8dc66c7c8729513/documentation/responsive.jpg)
 
 ----
@@ -181,7 +183,7 @@ The site was deployed to GitHub pages. The steps to deploy as follows:
 4. Select The branch to deploy
 5. The site deployed succesfully
 
-The live link can be found here - 
+The live link can be found here - https://thomasspare.github.io/The-Kit-artist-page/
 
 ---
 
