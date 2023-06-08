@@ -231,9 +231,10 @@ And test on Iphone 12 pro
   
   I tested the sites pages in W3C checker, using my url for the live pages.
   
-  - The spotify iframe, w3c showed an error for using % instead of an integer (fixed)
-  -
+  - Errors about the The spotify iframe, w3c showed an error for using % instead of an integer
+    also frameborder comes up as an error. 
   
+  Other than this w3c shows no error in the code
  
   --
   
