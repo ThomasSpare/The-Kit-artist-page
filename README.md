@@ -124,9 +124,9 @@ This where links to the bands platforms are gathered. By clicking them the user 
 ## Design
 
 I wanted the main page to have a large area for photos, so I
-thought a transparent navigation bar would be good on this page. Although carefull not causing this to inflict difficulty navigating the site I decided to use black fonts on a light background.
+thought a transparent navigation bar would be good on this page. In the gallery page below the footer will show up fixed in vertical on the left side when scrolling on larger screens, on smaller devices its fixed at bottom of screen. I made it vertical on only this page as this page can be quite long before reaching the bottom with added photos after a while.
 
-The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone.
+The navbar from the outset was supposed to have non-transparent bakground and I wanted to use the bands logo as a home button in the navbar. I designed the logo myself using the app photoleaps design function on my iphone. The logo will show up on larger screens but only the index page and will not display on smaller screens. In the index page at the bottom I also used a customized css animation called pulse for the merch image to draw attention to it. If the visitor clicks the T-shirt image they will be forwarded to the merch page. 
 
 ![The kit logo](https://github.com/ThomasSpare/The-Kit---artist-page/blob/main/documentation/graphic/The%20Kit%20LOGO.png)
 
